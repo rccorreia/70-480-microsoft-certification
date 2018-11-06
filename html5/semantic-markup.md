@@ -6,7 +6,7 @@ HTML5 brings precision to the sectioning and heading features, allowing document
 
 All content lying inside the ```<body>``` element is part of a section. Sections in HTML5 can be nested. Beside the main section, defined by the ```<body>``` element, section limits are defined either explicitly or implicitly. Explicitly-defined sections are the content within ```<body>```,  ```<section>```,  ```<article>```,  ```<aside>```, and ```<nav>``` tags. 
 
-Visit [Example page](semantic-markup-examples.html)
+Visit [Example page](semantic-markup-example-page/semantic-markup-example-page.html)
 
 ## Elements / Tags
 

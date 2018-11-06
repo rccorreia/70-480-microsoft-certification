@@ -38,4 +38,5 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
 ##### Layout container in HTML
 
-See my [Sources](sources.md)
+## See my [Sources](sources.md).
+I tried to indicate the source in every file. This one is the sum of all of those.
