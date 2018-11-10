@@ -30,29 +30,35 @@ Visit [Example page](semantic-markup-example-page/semantic-markup-example-page.h
 
 ### [Article](elements-tags/article.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 
-### [Doctype](elements-tags/doctype.md) - [source](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
-
-### [Meta](elements-tags/meta.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
-
 ### [Section](elements-tags/section.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
 
 ### [Aside](elements-tags/aside.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
+
+
+
+
+### [Doctype](elements-tags/doctype.md) - [source](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
+
+### [Meta](elements-tags/meta.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
 
 ### Other important elements / Tags:
 
 #### [Hgroup](elements-tags/hgroup.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup)
 
-#### [Canvas](elements-tags/canvas.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas)
-
-#### [Figure](elements-tags/figure.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
-
-#### [Figcaption](elements-tags/figcaption.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption)
-
-#### [Mark](elements-tags/mark.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark)
+#### [Figure](elements-tags/figure-and-figcaption.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) and [Figcaption](elements-tags/figure-and-figcaption.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption)
 
 #### [Progress](elements-tags/progress.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress)
 
+
+
+
+#### [Canvas](elements-tags/canvas.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas)
+
+#### [Mark](elements-tags/mark.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark)
+
 #### [SVG](elements-tags/svg.md) - [source](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg)
+
+#### [Time](elements-tags/time.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)
 
 #### Source:
 [MDN](https://developer.mozilla.org/)

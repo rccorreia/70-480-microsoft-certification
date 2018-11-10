@@ -18,5 +18,3 @@ The Content-Type (from http) header and any Byte-Order Marks override this eleme
 This attribute contains the value for the http-equiv or name attribute, depending on which is used. So it holds the content for the meta information informed before.
 
 ### Http-equiv
-
-
