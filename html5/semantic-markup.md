@@ -34,7 +34,7 @@ Visit [Example page](semantic-markup-example-page/semantic-markup-example-page.h
 
 ### [Aside](elements-tags/aside.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
 
-
+### [Div](elements-tags/div.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
 
 
 ### [Doctype](elements-tags/doctype.md) - [source](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
