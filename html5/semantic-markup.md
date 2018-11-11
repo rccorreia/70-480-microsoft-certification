@@ -49,12 +49,12 @@ Visit [Example page](semantic-markup-example-page/semantic-markup-example-page.h
 
 #### [Progress](elements-tags/progress.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress)
 
+#### [Mark](elements-tags/mark.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark)
+
 
 
 
 #### [Canvas](elements-tags/canvas.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas)
-
-#### [Mark](elements-tags/mark.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark)
 
 #### [SVG](elements-tags/svg.md) - [source](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg)
 
