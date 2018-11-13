@@ -18,8 +18,8 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
 #### [Optimizing for search engines](html5/search-engines.md)
 
-#### Markup for screen readers
+#### [Optimizing for screen readers](html5/screen-readers.md)
 
 ## Sources
 
-I tried to indicate the source in every file. If some file has no source, please, open an issue so I can specify the source.
+I tried to indicate the source in every file. If some file has no source, maybe it is the product of a research in many sources. In case you saw something that you think is yours, please, open an issue so I can specify your content as the source.
