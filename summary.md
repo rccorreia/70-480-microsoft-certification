@@ -22,7 +22,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
 * ### Write code that interacts with UI controls
 
-  #### [Programmatically add and modify HTML elements](html5/ui-control-interaction-code/add-modify-elements.md)
+  * #### [Programmatically add and modify HTML elements](html5/ui-control-interaction-code/add-modify-elements.md)
 
 
 
