@@ -172,3 +172,11 @@ HTML5 also introduces two new elements that can be used to mark up the header an
 
 * The HTML Footer Element (```<footer>```) defines a page footer — typically containing the copyright and legal notices and sometimes some links — or section footer, containing perhaps the section's publication date, license information, etc. ```<article>```, ```<section>```, ```<aside>```, and ```<nav>``` can have their own ```<footer>```. Despite its name, it is not necessarily positioned at the end of the page or section.
 These do not create new sections in the outline, rather, they mark up content inside sections of the page.
+
+### Conclusion
+
+The new semantic elements introduced in HTML5 bring the ability to describe the structure and the outline of a web document in a standard way. They bring a big advantage for people having HTML5 browsers and needing the structure to help them understand the page, for instance people needing the help of some assistive technology. These new semantic elements are simple to use and, with very few burdens, can be made to work also in non-HTML5 browsers. Therefore they should be used without restrictions.
+
+
+
+Source: [MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines)

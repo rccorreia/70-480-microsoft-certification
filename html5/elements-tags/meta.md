@@ -18,3 +18,22 @@ The Content-Type (from http) header and any Byte-Order Marks override this eleme
 This attribute contains the value for the http-equiv or name attribute, depending on which is used. So it holds the content for the meta information informed before.
 
 ### Http-equiv
+
+Defines a pragma directive. The attribute is named http-equiv(alent) because all the allowed values are names of particular HTTP headers:
+
+* "content-security-policy": 
+
+  Allows page authors to define a content policy for the current page. Content policies mostly specify allowed server origins and script endpoints which help guard against cross-site scripting attacks.
+
+* "refresh":
+
+  This instruction specifies:
+    * The number of seconds until the page should be reloaded - only if the content attribute contains a positive integer.
+    
+    * The number of seconds until the page should redirect to another - only if the content attribute contains a positive integer followed by the string ';url=', and a valid URL.
+
+### name
+
+This attribute defines the name of a piece of document-level metadata. It should not be set if one of the attributes itemprop, http-equiv or charset is also set.
+
+There is a several possible values, that can be seen [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta), on "name" section.

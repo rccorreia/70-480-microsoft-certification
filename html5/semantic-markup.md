@@ -1,9 +1,10 @@
-
-
-
-
+# Semantic Markup
 
 ## Elements / Tags
+
+### [Doctype](elements-tags/doctype.md) - [source](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
+
+### [Meta](elements-tags/meta.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
 
 ### [Header](elements-tags/header.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
 
@@ -19,16 +20,6 @@
 
 ### [Div](elements-tags/div.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
 
-
-
-
-### [Doctype](elements-tags/doctype.md) - [source](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
-
-### [Meta](elements-tags/meta.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
-
-
-
-
 ### Other important elements / Tags:
 
 #### [Hgroup](elements-tags/hgroup.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup)
@@ -38,17 +29,6 @@
 #### [Progress](elements-tags/progress.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress)
 
 #### [Mark](elements-tags/mark.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark)
-
-
-
-
-#### [Canvas](elements-tags/canvas.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas)
-
-#### [SVG](elements-tags/svg.md) - [source](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg)
-
-#### [Time](elements-tags/time.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)
-
-# Visit [Example page](semantic-markup-example-page/semantic-markup-example-page.html)
 
 # Source:
 [MDN](https://developer.mozilla.org/)
