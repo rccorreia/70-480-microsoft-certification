@@ -8,17 +8,23 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
 ## Implement and Manipulate Document Structures and Objects **(20-25%)**
 
-### Create the document structure by using HTML
+* ### Create the document structure by using HTML
 
-#### [The HTML5 outline algorithm](html5/outline-algorithm.md)
+  * #### [The HTML5 outline algorithm](html5/document-structure/outline-algorithm.md)
 
-#### [Semantic Markup](html5/semantic-markup.md)
+  * #### [Semantic Markup](html5/document-structure/semantic-markup.md)
 
-#### [Layout container in HTML](html5/layout-container.md)
+  * #### [Layout container in HTML](html5/document-structure/layout-container.md)
 
-#### [Optimizing for search engines](html5/search-engines.md)
+  * #### [Optimizing for search engines](html5/document-structure/search-engines.md)
 
-#### [Optimizing for screen readers](html5/screen-readers.md)
+  * #### [Optimizing for screen readers](html5/document-structure/screen-readers.md)
+
+* ### Write code that interacts with UI controls
+
+  #### [Programmatically add and modify HTML elements](html5/ui-control-interaction-code/add-modify-elements.md)
+
+
 
 ## Sources
 
