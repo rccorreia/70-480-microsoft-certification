@@ -16,7 +16,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
 #### [Layout container in HTML](html5/layout-container.md)
 
-#### Markup for search engines
+#### [Optimizing for search engines](html5/search-engines.md)
 
 #### Markup for screen readers
 
