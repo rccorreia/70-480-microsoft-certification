@@ -1,23 +1,6 @@
-# Outlining and sectioning elements in HTML5:
-
-HTML5 brings precision to the sectioning and heading features, allowing document outlines to be predictable and used by the browser to improve the user experience.
-
-## [The HTML5 outline algorithm](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines#The_HTML5_outline_algorithm)
-
-I will explain what is this algotithm...
-
-### [Defining Sections](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines#Defining_sections)
-
-All content lying inside the ```<body>``` element is part of a section. Sections in HTML5 can be nested. Beside the main section, defined by the ```<body>``` element, section limits are defined either explicitly or implicitly. Explicitly-defined sections are the content within ```<body>```,  ```<section>```,  ```<article>```,  ```<aside>```, and ```<nav>``` tags. 
-
-### Defining headings
-### Implicit sectioning
-### Sectioning roots
-### Sections outside the outline
-### Headers and Footers
 
 
-Visit [Example page](semantic-markup-example-page/semantic-markup-example-page.html)
+
 
 
 ## Elements / Tags
@@ -37,9 +20,14 @@ Visit [Example page](semantic-markup-example-page/semantic-markup-example-page.h
 ### [Div](elements-tags/div.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
 
 
+
+
 ### [Doctype](elements-tags/doctype.md) - [source](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
 
 ### [Meta](elements-tags/meta.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
+
+
+
 
 ### Other important elements / Tags:
 
@@ -60,5 +48,7 @@ Visit [Example page](semantic-markup-example-page/semantic-markup-example-page.h
 
 #### [Time](elements-tags/time.md) - [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)
 
-#### Source:
+# Visit [Example page](semantic-markup-example-page/semantic-markup-example-page.html)
+
+# Source:
 [MDN](https://developer.mozilla.org/)

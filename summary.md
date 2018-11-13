@@ -6,37 +6,18 @@ Maybe there is some material needed for the certification that is not covered he
 
 I followed the appendix of [Skills measured](support-material/skills-measured.md), according to [Microsoft website](https://www.microsoft.com/en-us/learning/exam-70-480.aspx) on 2018-11-04:
 
-## Division by knowledge area
+## Implement and Manipulate Document Structures and Objects **(20-25%)**
 
-### HTML 5
+### Create the document structure by using HTML
 
-#### Create the document structure by using HTML
+#### [Semantic Markup](html5/semantic-markup.md)
 
-##### [Semantic Markup](html5/semantic-markup.md)
+#### Layout container in HTML
 
+#### Markup for search engines
 
+#### Markup for screen readers
 
+## Sources
 
-## Division by certification skills measured topics
-
-### Implement and Manipulate Document Structures and Objects **(20-25%)**
-
-#### Create the document structure by using HTML
-
-##### [Semantic Markup](html5/semantic-markup.md)
-
-  * Section;
-  * Article;
-  * Nav;
-  * Header;
-  * Footer;
-  * Aside;
-
-##### Markup for search engines
-
-##### Markup for screen readers
-
-##### Layout container in HTML
-
-## See my [Sources](sources.md).
-I tried to indicate the source in every file. This one is the sum of all of those.
+I tried to indicate the source in every file. If some file has no source, please, open an issue so I can specify the source.
