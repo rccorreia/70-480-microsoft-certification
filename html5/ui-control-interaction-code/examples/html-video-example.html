@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <style>
+      img:hover {
+        cursor: pointer;
+      }
+    </style>
+    <script>
+      var video;
+      window.onload = function () {
+        video = document.getElementById("sampleVideo");
+      }
+      
+      function play() {
+        video.play();
+      }
+    
+      function pause() {
+        video.pause();
+      }
+    
+      function back() {
+        video.currentTime -= 10;
+      }
+    </script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <video height="400" width="600" id="sampleVideo">
+            <source src="videos/SampleVideo_720x480_1mb.mp4" type="audio/mp4"/>
+          </video>
+        </td>
+        <td>
+          <img id="backButton" src="images/backword.png" onclick="back();"/><br/>
+          <img id="playButton" src="images/forward.png" onclick="play();"/><br/>
+          <img id="PauseButton" src="images/pause.png" onclick="pause();"/><br/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>This video is not mine. It was downloaded <a href="https://sample-videos.com/">here</a>.</p>
+          <p>If you are the owner and want me to remove this video, please, open an issue and tell me so I can remove it.</p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
