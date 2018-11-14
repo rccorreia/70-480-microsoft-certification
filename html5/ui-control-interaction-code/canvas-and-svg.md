@@ -1,0 +1,137 @@
+# Implementing graphics with HTML5 ```<canvas>``` and SVG
+
+## Graphics with ```<canvas>``` element
+
+The HTML5 specification introduces the ```<canvas>``` webpage element, which provides a blank canvas on which you can draw dynamically. You can draw lines, text, and images on the canvas and manipulate them with JavaScript.
+
+Here is the markup for a ```<canvas>``` element:
+```
+<canvas id="drawingSurface" width="600" height="400">
+  Your browser does not support HTML5.
+</canvas>
+```
+
+Which corresponds to:
+
+<canvas id="drawingSurface" width="600" height="400">
+  Your browser does not support HTML5.
+</canvas>
+
+Yes, a blank canvas.
+
+To draw on the canvas, you need to understand the coordinate system that the canvas uses.
+
+The canvas provides a fixed (x,y) coordinate system in which the top-left corner of the canvas is (0,0). In this case, the bottom-left corner of the canvas is (0,400), the top-right corner is (600,0), and the bottom-right corner is (600,400). You should be fairly used to this type of system because it matches the browser window coordinate system, with (0,0) in the top-left corner. However, the position of the canvas in the browser window is irrelevant to the drawing methods you use to draw on the canvas. The coordinates for drawing on the canvas are always based on the coordinates within the canvas itself, where the top-left pixel is (0,0).
+
+We will use in the example the 2d context.
+
+### Drawing lines
+
+At the most basic level, you can draw lines on the canvas with the 2d context object you are referencing. The context object provides the following methods for drawing lines, as listed below:
+
+| Method    | Description                                                |
+|-----------|------------------------------------------------------------|
+| beginPath | Resets/begins a new drawing path                           |
+| moveTo    | Moves the context to the point set in the beginPath method |
+| lineTo    | Sets the destination end point for the line                |
+| stroke    | Strokes the line, which makes the line visible             |
+
+You can use the code below to draw three lines in the canvas:
+
+```
+ctxt.beginPath();
+ctxt.moveTo(10, 10);
+ctxt.lineTo(225, 350);
+ctxt.lineTo(300, 10);
+ctxt.lineTo(400, 350);
+ctxt.stroke();
+```
+
+Exploring the stroke method in more depth is worth the effort. If you were creating a chart or a graph, you might want to change the color of your lines so that they stand out from the axis. You might want to change the thickness. You do this by changing some properties on the context object before calling the stroke method.
+
+### Drawing curves
+
+Methods for drawing curves
+
+| Method           | Description                                                              |
+|------------------|--------------------------------------------------------------------------|
+| arc              | A standard arc based on a starting and ending angle and a defined radius |
+| quadradicCurveTo | A more complex arc that allows you to control the steepness of the curve |
+| bezierCurveTo    | Another complex arc that you can skew                                    |
+
+#### arc
+
+Parameters required to draw an arc:
+
+| Parameter            | Description                                                                                                                                 |
+|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| X, Y                 | The first two parameters are the X and Y coordinates for the center of the circle.                                                          |
+| radius               | The third parameter is the radius. This is the length of the distance from the center point of the circle to the curve.                     |
+| startAngle, endAngle | The fourth and fifth parameters specify the starting and ending angles of the arc to be drawn. This is measured in radians, not in degrees. |
+| counterclockwise     | The final parameter specifies the drawing direction of the arc.                                                                             |
+
+#### quadradicCurveTo
+
+Parameters required for the quadraticCurveTo method
+
+| Parameter          | Description                                                                                                                                                                   |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| controlX, controlY | These parameters define the control point, relative to the top left of the canvas, that is used to “stretch” the curve away from the line formed by the start and end points. |
+| endX, endY         | This is the point where the curve should end.                                                                                                                                 |
+
+#### bezierCurveTo
+
+Parameters required for the bezierCurveTo method
+
+| Parameter            | Description                                                                                       |
+|----------------------|---------------------------------------------------------------------------------------------------|
+| controlX, controlY   | The first two parameters specify the first control point that is used to stretch out the curve.   |
+| Control2X, control2Y | The second two parameters specify the second control point that is used to stretch out the curve. |
+| endX, endY           | The final two parameters specify the end point for the curve.                                     |
+
+### Using *path* methods
+
+When using the context object to draw, you always need a starting point and an ending point. The ending point for one stroke also can become the starting point for the next stroke. You do this by calling the beginPath method on the context object and then drawing all your lines before calling either the closePath method (which ends the line) or the beginPath method (which starts a new line) again.
+
+### Using *rect* method
+
+Some shapes are built in. Look at the built-in functionality to build rectangles:
+
+Parameters required for drawing rectangles:
+
+| Parameter | Description                                                                                                                    |
+|-----------|--------------------------------------------------------------------------------------------------------------------------------|
+| x,y       | The x-coordinate and y-coordinate define the starting position of the rectangle. This is the top-left corner of the rectangle. |
+| width     | This defines the width of the rectangle.                                                                                       |
+| height    | This defines the height of the rectangle.                                                                                      |
+
+### Using the *fill* method
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Accessibility concerns with canvas
+
+The ```<canvas>``` element on its own is just a bitmap and does not provide information about any drawn objects. Canvas content is not exposed to accessibility tools like semantic HTML is. In general, you should avoid using canvas in an accessible website or app. The following guides can help to make it more accessible.
+
+* [MDN Hit regions and accessability](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Hit_regions_and_accessibility)
+* [Canvas accessibility use cases](https://www.w3.org/WAI/PF/HTML/wiki/Canvas_Accessibility_Use_Cases)
+* [Canvas element accessibility issues](https://www.w3.org/html/wg/wiki/AddedElementCanvas)
+* [HTML5 Canvas Accessibility in Firefox 13 – by Steve Faulkner](http://www.paciellogroup.com/blog/2012/06/html5-canvas-accessibility-in-firefox-13/)
+* [Best practices for interactive canvas elements](https://html.spec.whatwg.org/multipage/scripting.html#best-practices)
+
+
+## Sources
+
+[MDN](https://developer.mozilla.org/)
+
+[Exam Ref 70-480 Programming in HTML5 with JavaScript and CSS3 (MCSD)](https://www.microsoft.com/en-us/p/exam-ref-70-480-programming-in-html5-with-javascript-and-css3-mcsd/fgqpf3h0qll7?activetab=pivot%3aoverviewtab)

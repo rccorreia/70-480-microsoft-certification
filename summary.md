@@ -26,6 +26,8 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
   
   * #### [Implement media controls](html5/ui-control-interaction-code/implement-media-controls.md)
 
+  * #### [Implement HTML5 canvas and SVG graphics](html5/ui-control-interaction-code/canvas-and-svg.md)
+
 
 
 ## Sources

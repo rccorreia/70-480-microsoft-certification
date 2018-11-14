@@ -61,6 +61,10 @@ Each element or node has the properties listed below:
 | lastChild     | A reference to the very last child node in the list of the child nodes of the parent node.                                                                                                          |
 | hasChildNodes | A useful property that returns true if the parent element has any child nodes at all. A good practice is to check this property before accessing other properties, such as firstChild or lastChild. |
 
-
-
 You can see examples of this methods [here](examples/html-altering-the-DOM.html)
+
+## Sources
+
+[MDN](https://developer.mozilla.org/)
+
+[Exam Ref 70-480 Programming in HTML5 with JavaScript and CSS3 (MCSD)](https://www.microsoft.com/en-us/p/exam-ref-70-480-programming-in-html5-with-javascript-and-css3-mcsd/fgqpf3h0qll7?activetab=pivot%3aoverviewtab)

@@ -99,3 +99,9 @@ Because no other screen space is required as in the video samples, the ```<audio
 ## Conclusion
 
 The ```<audio>``` and ```<video>``` elements are very similar. The key point regarding these elements is that they provide a standardized way to represent media in HTML pages to simplify reading the HTML code and know exactly what the page is supposed to be doing.
+
+## Sources
+
+[MDN](https://developer.mozilla.org/)
+
+[Exam Ref 70-480 Programming in HTML5 with JavaScript and CSS3 (MCSD)](https://www.microsoft.com/en-us/p/exam-ref-70-480-programming-in-html5-with-javascript-and-css3-mcsd/fgqpf3h0qll7?activetab=pivot%3aoverviewtab)

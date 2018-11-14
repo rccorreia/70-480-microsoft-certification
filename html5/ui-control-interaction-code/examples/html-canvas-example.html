@@ -1,0 +1,128 @@
+<html lang="en">
+  <head>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+    <script>
+      window.onload = function () {
+        var drawingLines = document.getElementById("drawingLines");
+        var ctxtLines = drawingLines.getContext("2d");
+
+        ctxtLines.beginPath();
+        ctxtLines.moveTo(10, 10);
+        ctxtLines.lineTo(225, 350);
+        ctxtLines.lineTo(300, 10);
+        ctxtLines.lineTo(400, 350);
+        // make every graphical change before you call the stroke method
+        ctxtLines.lineWidth = 5;
+        ctxtLines.strokeStyle = '#0a0';
+        ctxtLines.lineCap = 'round';
+        ctxtLines.stroke();
+
+        var drawingCurves = document.getElementById("drawingCurves");
+        var ctxtCurves = drawingCurves.getContext("2d");
+
+        ctxtCurves.beginPath();
+        ctxtCurves.arc(150,100,75,0,2 * Math.PI, false);
+        ctxtCurves.lineWidth = 25;
+        ctxtCurves.strokeStyle = '#0a0';
+        ctxtCurves.stroke();
+        
+        ctxtCurves.beginPath();
+        ctxtCurves.arc(450, 100, 75, 1.5 * Math.PI, 2 * Math.PI, false);
+        ctxtCurves.lineWidth = 25;
+        ctxtCurves.strokeStyle = 'blue';
+        ctxtCurves.stroke();
+
+        ctxtCurves.beginPath();
+        ctxtCurves.arc(150, 300, 75, 1 * Math.PI, 1.5 * Math.PI, false);
+        ctxtCurves.lineWidth = 25;
+        ctxtCurves.strokeStyle = '#00ffff';
+        ctxtCurves.stroke();
+
+        ctxtCurves.beginPath();
+        ctxtCurves.arc(450, 300, 75, .5 * Math.PI, 1 * Math.PI, false);
+        ctxtCurves.lineWidth = 25;
+        ctxtCurves.strokeStyle = '#f00';
+        ctxtCurves.stroke();
+
+        ctxtCurves.beginPath();
+        ctxtCurves.moveTo(10,380);
+        ctxtCurves.quadraticCurveTo(300,-250,580,380);
+        ctxtCurves.lineWidth = 25;
+        ctxtCurves.strokeStyle = '#ff0';
+        ctxtCurves.stroke();
+
+        ctxtCurves.beginPath();
+        ctxtCurves.moveTo(350, 20);
+        ctxtCurves.bezierCurveTo(100, 200, 500, 200, 350, 400);
+        ctxtCurves.lineWidth = 5;
+        ctxtCurves.strokeStyle = '#666';
+        ctxtCurves.stroke();
+        
+        var drawingWithPath = document.getElementById("drawingWithPath");
+        var ctxtPath = drawingWithPath.getContext("2d");
+
+        ctxtPath.beginPath();
+        ctxtPath.arc(300, 200, 75, 1.75 * Math.PI, 1.25 * Math.PI, false);
+        ctxtPath.lineTo(150, 125);
+        ctxtPath.quadraticCurveTo(300, 0, 450, 125);
+        ctxtPath.lineTo(353, 144);
+        ctxtPath.strokeStyle = "blue";
+        ctxtPath.lineCap = "round";
+        ctxtPath.lineWidth = 10;
+        ctxtPath.fillStyle = "Green";
+        ctxtPath.fill();
+        ctxtPath.stroke();
+        
+        var drawingWithRect = document.getElementById("drawingWithRect");
+        var ctxtRect = drawingWithRect.getContext("2d");
+
+        ctxtRect.beginPath();
+        ctxtRect.fillStyle = "blue";
+        ctxtRect.fillRect(300, 200, 150, 75);
+        ctxtRect.stroke();
+
+        //Code to center the rectangle
+        ctxtRect.beginPath();
+        var x, y;
+        x = 150;
+        y = 75;
+        ctxtRect.rect(300-(x / 2), 200-(y / 2), x, y);
+        ctxtRect.lineWidth = 3;
+        ctxtRect.stroke();
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Drawing with canvas</h1>
+    <article>
+      <section>
+        <h2>Drawing Lines</h2>
+        <canvas id="drawingLines" width="600" height="400">
+          Your browser does not support HTML5.
+        </canvas>
+      </section>
+      <section>
+        <h2>Drawing Curves</h2>
+        <canvas id="drawingCurves" width="600" height="400">
+          Your browser does not support HTML5.
+        </canvas>
+      </section>
+      <section>
+        <h2>Using Path Methods</h2>
+        <canvas id="drawingWithPath" width="600" height="400">
+          Your browser does not support HTML5.
+        </canvas>
+      </section>
+      <section>
+        <h2>Using Rect Method</h2>
+        <canvas id="drawingWithRect" width="600" height="400">
+          Your browser does not support HTML5.
+        </canvas>
+      </section>
+    </article>
+  </body>
+</html>
