@@ -58,7 +58,7 @@ If the browser supports the HTML5 video element, it doesn’t show the fallback.
 
 Example of an custom view of video element:
 
-You can create your own control bar and substitute the control buttons to enable users to control the video. [This example](examples/html-video-example.html) adds a few custom image elements to the page and wires up some JavaScript to control the video.
+You can create your own control bar and substitute the control buttons to enable users to control the video. [This example](examples/html-video-audio-example.html) adds a few custom image elements to the page and wires up some JavaScript to control the video.
 
 --/--
 
@@ -71,3 +71,31 @@ Methods and properties on the ```<video>``` object:
 | volume          | Allows the user to control the volume of the video.                                                                     |
 | currentTime     | Represents the current position of the video. Increase or decrease this value to move forward or backward in the video. |
 
+
+## Using the ```<audio>``` element
+
+The ```<audio>``` element is essentially identical to the ```<video>``` element. It has all the same attributes and the same methods. The only real difference is how it displays in the browser. Because no video is available to show, the ```<audio>``` element occupies no screen space. However, you can show the default controls—or you can again choose not to show the default controls and to create your own mechanism to control the audio, either through custom user interface elements or behind the scenes in JavaScript. Here is an example of what an ```<audio>``` declaration looks like in your webpage:
+
+```
+<audio controls>
+  <source src="sample.mp3" type="audio/mp3"/>
+  <source src="sample.ogg" type="audio/ogg"/>
+  <p>Your browser does not support HTML5 audio.</p>
+</audio>
+```
+
+Which corresponds to:
+
+<audio controls>
+  <source src="sample.mp3" type="audio/mp3"/>
+  <source src="sample.ogg" type="audio/ogg"/>
+  <p>Your browser does not support HTML5 audio.</p>
+</audio>
+
+Because no other screen space is required as in the video samples, the ```<audio>``` element has no height or width properties available.
+
+[Here](examples/html-video-audio-example.html) is an example.
+
+## Conclusion
+
+The ```<audio>``` and ```<video>``` elements are very similar. The key point regarding these elements is that they provide a standardized way to represent media in HTML pages to simplify reading the HTML code and know exactly what the page is supposed to be doing.
