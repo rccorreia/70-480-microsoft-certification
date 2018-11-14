@@ -34,6 +34,33 @@ You have a few choices when it comes to using JavaScript to access the DOM. You 
 | querySelector           | Gets the first child element found that matches the provided CSS selector criteria |   |   |   |
 | querySelectorAll        | Gets all the child elements that match the provided CSS selector criteria          |   |   |   |
 
-You can see examples of this methods [here](examples/html-source-to-work-with-the-DOM.html)
+Because the DOM represents the document as nodes and objects, the return of getElementsByTagName is a *NodeList*.
 
-Because the DOM represents the document as nodes and objects, the return of getElementsByTagName is a *NodeList*
+You can see examples of this methods [here](examples/html-selecting-itens-in-the-DOM.html)
+
+## Altering the DOM
+
+After you have a reference to a container element, you can add child elements to it dynamically. You can remove elements from it or simply hide elements.
+
+When you remove an element from the DOM, it is gone. So if you want to make something invisible to the user but be able to use it again later, you can simply hide it by using the appropriate CSS rather than remove it. Here’s an example:
+
+```
+var element = document.getElementById("innerDiv");
+alert(element.innerHTML);
+document.removeChild(element);
+var afterRemove = document.getElementById("innerDiv");
+alert(afterRemove);
+```
+
+Each element or node has the properties listed below:
+
+| Property      | Description                                                                                                                                                                                         |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| childNodes    | A collection of all child nodes of the parent element.                                                                                                                                              |
+| firstChild    | A reference to the very first child node in the list of child nodes of the parent node.                                                                                                             |
+| lastChild     | A reference to the very last child node in the list of the child nodes of the parent node.                                                                                                          |
+| hasChildNodes | A useful property that returns true if the parent element has any child nodes at all. A good practice is to check this property before accessing other properties, such as firstChild or lastChild. |
+
+
+
+You can see examples of this methods [here](examples/html-altering-the-DOM.html)
