@@ -107,9 +107,18 @@ Parameters required for drawing rectangles:
 
 ### Using the *fill* method
 
+It is simple as passing the context propertie ```fillstyle``` the color you want and them calling the method ```fill()```. The rect method gets a special fill methor, ```the fillRect()```
 
+#### Fill with Gradient
 
+Call the createLinearGradient method on the context object to get a CanvasGradient Object.
+Add stops to this object and them assign this to the fillStyle of the context.
 
+Or you can use radial gradient. This method takes six parameters, which specify the center point and radius of two circles and the color transitions through the stops along the cone formed by the two circles.
+
+#### External Image Fill Pattern
+
+an external image is applied as a pattern throughout the shape.
 
 
 

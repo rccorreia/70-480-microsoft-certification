@@ -93,6 +93,34 @@
         ctxtRect.rect(300-(x / 2), 200-(y / 2), x, y);
         ctxtRect.lineWidth = 3;
         ctxtRect.stroke();
+
+        var drawingWithGradientFill = document.getElementById("drawingWithGradientFill");
+        var ctxtGradient = drawingWithGradientFill.getContext("2d");
+        
+        ctxtGradient.lineWidth = 3;
+        ctxtGradient.rect(150, 150, 200, 125);
+        var gradient = ctxtGradient.createLinearGradient(150, 150, 200, 125);
+        gradient.addColorStop(0, "Black");
+        gradient.addColorStop(0.5, "Gray");
+        gradient.addColorStop(1,"White");
+        ctxtGradient.fillStyle = gradient;
+        ctxtGradient.fill();
+        ctxtGradient.stroke();
+      
+        var drawingWithRadialGradient = document.getElementById("drawingWithRadialGradient");
+        var ctxtRadialGradient = drawingWithRadialGradient.getContext("2d");
+        
+        ctxtRadialGradient.lineWidth = 3;
+        ctxtRadialGradient.rect(150, 150, 250, 175);
+        var radialGradient = ctxtRadialGradient.createRadialGradient(200, 200,5, 250, 250,100);
+        radialGradient.addColorStop(0, "Red");
+        radialGradient.addColorStop(.5, "Orange");
+        radialGradient.addColorStop(1, "Blue");
+        ctxtRadialGradient.fillStyle = radialGradient;
+        ctxtRadialGradient.fill();
+        ctxtRadialGradient.stroke();
+      
+      
       }
     </script>
   </head>
@@ -120,6 +148,18 @@
       <section>
         <h2>Using Rect Method</h2>
         <canvas id="drawingWithRect" width="600" height="400">
+          Your browser does not support HTML5.
+        </canvas>
+      </section>
+      <section>
+        <h2>Fill Gradient</h2>
+        <canvas id="drawingWithGradientFill" width="600" height="400">
+          Your browser does not support HTML5.
+        </canvas>
+      </section>
+      <section>
+        <h2>Radial Gradient</h2>
+        <canvas id="drawingWithRadialGradient" width="600" height="400">
           Your browser does not support HTML5.
         </canvas>
       </section>
