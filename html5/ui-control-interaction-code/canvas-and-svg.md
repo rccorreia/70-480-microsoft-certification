@@ -13,7 +13,7 @@ Here is the markup for a ```<canvas>``` element:
 
 Which corresponds to:
 
-<canvas id="drawingSurface" width="600" height="400">
+<canvas id="drawingSurface" width="60" height="40">
   Your browser does not support HTML5.
 </canvas>
 
@@ -158,8 +158,46 @@ This reduces the image size by 50 percent.
 
 ### Drawing Text
 
+You'll need to use the strokeText method and the font property.
 
+In its simplest form, drawing text requires only the following code:
 
+```
+  ctxt.strokeText("1. Text with default font", 100, 100);
+```
+
+Running the following code changes the font size to 24 and the font family to Arial:
+
+```
+  ctxt.font = "24px arial";
+  ctxt.strokeText("2. Text with altered font", 100, 125);
+```
+
+To color your text, you could add this code:
+
+```
+  ctxt.font = "24px arial";
+  ctxt.strokeStyle = "Red";
+  ctxt.strokeText("3. Text with altered colored font", 100, 160);
+```
+
+To draw solid-colored text, add the following code, which sets the fillStyle property and calls the fillText method instead of the strokeStyle and StrokeText methods:
+
+```
+  ctxt.font = "24px arial";
+  ctxt.fillStyle = "Red";
+  ctxt.fillText("4. Text with altered colored font", 100, 185);
+```
+
+To ensure your text is centered, add this code:
+
+```
+  ctxt.font = "24px arial";
+  ctxt.textAlign = "center";
+  ctxt.fillStyle = "Red";
+  ctxt.fillText("5. Text with altered colored font Centered.", drawingSurface.width / 2,
+  drawingSurface.height / 2);
+```
 
 ### Accessibility concerns with canvas
 
@@ -170,6 +208,12 @@ The ```<canvas>``` element on its own is just a bitmap and does not provide info
 * [Canvas element accessibility issues](https://www.w3.org/html/wg/wiki/AddedElementCanvas)
 * [HTML5 Canvas Accessibility in Firefox 13 – by Steve Faulkner](http://www.paciellogroup.com/blog/2012/06/html5-canvas-accessibility-in-firefox-13/)
 * [Best practices for interactive canvas elements](https://html.spec.whatwg.org/multipage/scripting.html#best-practices)
+
+
+## Scalable Vector Graphics (SVG)
+
+
+
 
 
 ## Sources

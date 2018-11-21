@@ -142,6 +142,24 @@
           ctxtImage.drawImage(img, 10, 30);
           ctxtImage.stroke();
         }
+
+        var drawingText = document.getElementById("drawingText");
+        var ctxt = drawingText.getContext("2d");
+        ctxt.strokeText("1. Text with default font", 20, 30);
+        
+        ctxt.font = "24px arial";
+        ctxt.strokeText("2. Text with altered font and size", 20, 70);
+
+        ctxt.strokeStyle = "Red";
+        ctxt.strokeText("3. Text with altered colored font", 20, 110);
+
+        ctxt.fillStyle = "Blue";
+        ctxt.fillText("4. Text with filled altered colored font", 20, 150);
+
+        ctxt.textAlign = "center";
+        ctxt.fillStyle = "Red";
+        ctxt.fillText("5. Text with altered colored font Centered.", drawingText.width / 2, drawingText.height / 2);
+
       }
     </script>
   </head>
@@ -197,6 +215,12 @@
           Your browser does not support HTML5.
         </canvas>
         <p>Photo by Omran Jamal from Pexels</p>
+      </section>
+      <section>
+        <h2>Drawing Text</h2>
+        <canvas id="drawingText" width="600" height="400">
+          Your browser does not support HTML5.
+        </canvas>
       </section>
     </article>
   </body>
