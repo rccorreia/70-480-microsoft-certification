@@ -10,24 +10,31 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
 * ### Create the document structure by using HTML
 
-  * #### [The HTML5 outline algorithm](html5/document-structure/outline-algorithm.md)
+  * #### [The HTML5 outline algorithm](html/document-structure/outline-algorithm.md)
 
-  * #### [Semantic Markup](html5/document-structure/semantic-markup.md)
+  * #### [Semantic Markup](html/document-structure/semantic-markup.md)
 
-  * #### [Layout container in HTML](html5/document-structure/layout-container.md)
+  * #### [Layout container in HTML](html/document-structure/layout-container.md)
 
-  * #### [Optimizing for search engines](html5/document-structure/search-engines.md)
+  * #### [Optimizing for search engines](html/document-structure/search-engines.md)
 
-  * #### [Optimizing for screen readers](html5/document-structure/screen-readers.md)
+  * #### [Optimizing for screen readers](html/document-structure/screen-readers.md)
 
 * ### Write code that interacts with UI controls
 
-  * #### [Programmatically add and modify HTML elements](html5/ui-control-interaction-code/add-modify-elements.md)
+  * #### [Programmatically add and modify HTML elements](html/ui-control-interaction-code/add-modify-elements.md)
   
-  * #### [Implement media controls](html5/ui-control-interaction-code/implement-media-controls.md)
+  * #### [Implement media controls](html/ui-control-interaction-code/implement-media-controls.md)
 
-  * #### [Implement HTML5 canvas and SVG graphics](html5/ui-control-interaction-code/canvas-and-svg.md)
+  * #### [Implement HTML5 canvas and SVG graphics](html/ui-control-interaction-code/canvas-and-svg.md)
 
+* ### Apply styling to HTML elements programmatically
+
+  * #### [Change the location of an element](css/styling-elements-programmatically/change-element-location.md)
+  
+  * #### Apply a transform
+  
+  * #### Show and hide elements
 
 
 ## Sources
