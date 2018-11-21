@@ -135,8 +135,28 @@ Or you can use radial gradient. This method takes six parameters, which specify 
 #### External Image Fill Pattern
 
 An external image is applied as a pattern throughout the shape.
+It calls the createPattern method and passes it a reference to an Image
+object and a repeat pattern. The repeat pattern can be no-repeat, repeat-x, or repeat-y, but it defaults to repeat if you don’t specify anything. You need to assign an event handler to the onload event of the Image object to ensure that you draw the pattern only after the image loads. Otherwise, the code could run before the picture is rendered, and the pattern won’t display.
 
+### Drawing Images
 
+To draw an image on a canvas, you use the drawImage method of the context object.
+This method takes an Image object and some (x,y) coordinates to define where the image should be drawn.
+
+If you want to resize the image, you can replace the drawImage method call with the following line:
+```
+The Original:
+
+  ctxt.drawImage(img, 0, 0);
+
+With Resize:
+
+  ctxt.drawImage(img, 0,0,img.width * .5, img.height * .5);
+```
+
+This reduces the image size by 50 percent.
+
+### Drawing Text
 
 
 

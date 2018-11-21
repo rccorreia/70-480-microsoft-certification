@@ -120,7 +120,28 @@
         ctxtRadialGradient.fill();
         ctxtRadialGradient.stroke();
       
-      
+        var drawingWithExternalImage = document.getElementById("drawingWithExternalImage");
+        var ctxtExternalImage = drawingWithExternalImage.getContext("2d");
+        ctxtExternalImage.lineWidth = 3;
+        ctxtExternalImage.rect(50, 50, 500, 325);
+        var externalImg = new Image();
+        externalImg.src = "images/abstract-architecture-background-194096.jpg";
+        
+        externalImg.onload = function () {
+          var pat = ctxtExternalImage.createPattern(externalImg, "repeat");
+          ctxtExternalImage.fillStyle = pat;
+          ctxtExternalImage.fill();
+          ctxtExternalImage.stroke();
+        }
+
+        var drawingImage = document.getElementById("drawingImage");
+        var ctxtImage = drawingImage.getContext("2d");
+        var img = new Image();
+        img.src = "images/egg-food-forks-17609.jpg";
+        img.onload = function () {
+          ctxtImage.drawImage(img, 10, 30);
+          ctxtImage.stroke();
+        }
       }
     </script>
   </head>
@@ -162,6 +183,20 @@
         <canvas id="drawingWithRadialGradient" width="600" height="400">
           Your browser does not support HTML5.
         </canvas>
+      </section>
+      <section>
+        <h2>External Image Fill Pattern</h2>
+        <canvas id="drawingWithExternalImage" width="600" height="400">
+          Your browser does not support HTML5.
+        </canvas>
+        <p>Photo by Miguel Á. Padriñán from Pexels</p>
+      </section>
+      <section>
+        <h2>Drawing Image</h2>
+        <canvas id="drawingImage" width="600" height="400">
+          Your browser does not support HTML5.
+        </canvas>
+        <p>Photo by Omran Jamal from Pexels</p>
       </section>
     </article>
   </body>
