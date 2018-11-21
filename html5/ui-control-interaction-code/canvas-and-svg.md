@@ -2,6 +2,8 @@
 
 ## Graphics with ```<canvas>``` element
 
+[Here](examples/html-canvas-example.html) is an example page for the canvas section.
+
 The HTML5 specification introduces the ```<canvas>``` webpage element, which provides a blank canvas on which you can draw dynamically. You can draw lines, text, and images on the canvas and manipulate them with JavaScript.
 
 Here is the markup for a ```<canvas>``` element:
@@ -212,9 +214,72 @@ The ```<canvas>``` element on its own is just a bitmap and does not provide info
 
 ## Scalable Vector Graphics (SVG)
 
+[Here](examples/html-svg-example.html) is an example page for the svg section.
 
+Scalable Vector Graphics (SVG) is an XML-based language for creating two-dimensional graphics. It’s implemented by using tags defined by the SVG XML namespace and embedded in HTML5 documents within opening and closing ```<svg>``` elements.
 
+SVG objects don’t lose any quality as users zoom in or out. You can access SVG objects via the DOM, and—similar to HTML elements—SVG elements support attributes, styles, and event handlers. The ```<svg>``` element provides a container in which to render graphics; SVG renders inline with the page’s layout. Here’s an example of an SVG graphic with event handlers:
 
+```
+<head>
+  <script language="javascript">
+    function Red(evt) {
+      var circle = evt.target;
+      circle.setAttribute("style", "fill: red");
+    }
+
+    function Green(evt) {
+      var circle = evt.target;
+      circle.setAttribute("style", "fill: green");
+    }
+  </script>
+</head>
+<body>
+  <svg>
+    <circle id="Circle" cx="50" cy="50" r="50" fill="green" onmouseover="Red(evt)"
+    onmouseout="Green(evt)"/>
+  </svg>
+</body>
+```
+
+All the shape-drawing and line-drawing functionality you saw in the  ```<canvas>``` element discussion exists for SVG as well, although the syntax is different.
+
+The following code produces a slightly more elaborate graphic.
+
+```
+  <svg>
+    <rect id="lightStandard" x="100" y="100" width="60" height="200" fill="black"/>
+    <circle id="redLight" cx="129" cy="145" r="25" fill="red"/>
+    <circle id="amberLight" cx="129" cy="205" r="25" fill="yellow"/>
+    <circle id="greenLight" cx="129" cy="265" r="25" fill="green"/>
+  </svg>
+```
+
+SVG also supports the same basic shape-drawing functions as the canvas context. The following code segment shows the use of the polyline, polygon, line, and ellipse:
+
+```
+  <svg>
+    <polygon points="10,15 30,35 10,85 100,85, 70,35,100,15" fill="purple"/>
+    <polyline points="10,150 30,170 50,132 62,196 78,165 96,170"
+    style="stroke:orange; fill:none; stroke-width:5;"/>
+    <line x1="150" y1="100" x2="150" y2="150" style="stroke:blue;stroke-width:3"/>
+    <ellipse cx="250" cy="150" rx="30" ry="55" fill="green"/>
+    <text x="10" y="10" style="stroke: black;stroke-width:1;">
+    Examples of SVG Shapes and Text</text>
+  </svg>
+```
+
+SVG also supports rendering existing graphics in the form of external image files, as shown here:
+
+```
+  <svg id="mySVG">
+    <image href="orange.jpg" width="250" height="100"/>
+  </svg>
+```
+
+### Important!
+
+In some cases, using SVG graphics is simpler than using the ```<canvas>``` element. As the examples have shown, you can create SVG images declaratively directly within the HTML itself. However, as you increase the number of objects in an SVG rendering, performance can become a concern. **In cases where performance is a consideration**, using the ```<canvas>``` element is a preferable approach.
 
 ## Sources
 

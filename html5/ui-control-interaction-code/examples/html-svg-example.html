@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <title>SVG Example Page</title>
+    <script language="javascript">
+      function Red(evt) {
+        var circle = evt.target;
+        circle.setAttribute("style", "fill: red");
+      }
+
+      function Green(evt) {
+        var circle = evt.target;
+        circle.setAttribute("style", "fill: green");
+      }
+      </script>
+  </head>
+  <body>
+    <h1>SVG</h1>
+    <article>
+      <section>
+        <h2>Circle</h2>
+        <svg>
+          <circle id="Circle" cx="50" cy="50" r="50" fill="green" onmouseover="Red(evt)" onmouseout="Green(evt)"/>
+        </svg>
+      </section>
+      <section>
+          <h2>Light Standard</h2>
+          <svg style="width: 220; height: 300;">
+              <rect id="lightStandard" x="100" y="100" width="60" height="200" fill="black"/>
+              <circle id="redLight" cx="129" cy="145" r="25" fill="red"/>
+              <circle id="amberLight" cx="129" cy="205" r="25" fill="yellow"/>
+              <circle id="greenLight" cx="129" cy="265" r="25" fill="green"/>
+            </svg>
+      </section>
+      <section>
+          <h2>Examples of SVG Shapes and Text</h2>
+          <svg style="width: 300; height: 360;">
+              <polygon points="10,15 30,35 10,85 100,85, 70,35,100,15" fill="purple"/>
+              <polyline points="10,150 30,170 50,132 62,196 78,165 96,170"
+              style="stroke:orange; fill:none; stroke-width:5;"/>
+              <line x1="150" y1="100" x2="150" y2="150" style="stroke:blue;stroke-width:3"/>
+              <ellipse cx="250" cy="150" rx="30" ry="55" fill="green"/>
+              <text x="10" y="230" style="stroke: black;stroke-width:1;">
+              Examples of SVG Shapes and Text</text>
+            </svg>
+      </section>
+      <section>
+        <h2>External Image</h2>
+        <svg id="mySVG">
+            <image href="images/blur-business-chart-159888.jpg" width="250" height="100"/>
+          </svg>
+        <p>Photo by energepic.com from Pexels</p>
+      </section>      
+    </article>
+  </body>
+</html>
