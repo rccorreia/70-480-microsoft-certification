@@ -109,6 +109,22 @@ Parameters required for drawing rectangles:
 
 It is simple as passing the context propertie ```fillstyle``` the color you want and them calling the method ```fill()```. The rect method gets a special fill methor, ```the fillRect()```
 
+#### Solid Color
+
+Filling a shape with a color is as simple as setting the fillStyle property to a color and calling the fill method.
+
+```
+  ctxt.fillStyle = "blue";
+  ctxt.fill();
+```
+
+Or, using it with the rect method
+
+```
+  ctxt.fillStyle = "blue";
+  ctxt.fillRect(300—(x / 2), 200—(y / 2), x, y);
+```
+
 #### Fill with Gradient
 
 Call the createLinearGradient method on the context object to get a CanvasGradient Object.
@@ -118,10 +134,7 @@ Or you can use radial gradient. This method takes six parameters, which specify 
 
 #### External Image Fill Pattern
 
-an external image is applied as a pattern throughout the shape.
-
-
-
+An external image is applied as a pattern throughout the shape.
 
 
 

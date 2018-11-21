@@ -29,11 +29,6 @@ With all this new information about the available attributes, you can provide a 
 </video>
 ```
 
-Which corresponds to:
-
-<video src="samplevideo.mp4" controls poster="picture.jpg" height="400" width="600">
-</video>
-
 Not all browsers support all video formats. Keep this in mind as you implement your ```<video>``` elements; what each browser supports can (and will) change as well. You need to ensure that you provide options to the browser so that it can choose which video format to play. If you don’t have all the appropriate supported video formats and your page happens to get a visitor with a browser that can’t play the video format you have, you also need to provide an alternative or at least the information that the user’s browser doesn’t support this video. The following code demonstrates this:
 
 ```
@@ -83,14 +78,6 @@ The ```<audio>``` element is essentially identical to the ```<video>``` element.
   <p>Your browser does not support HTML5 audio.</p>
 </audio>
 ```
-
-Which corresponds to:
-
-<audio controls>
-  <source src="sample.mp3" type="audio/mp3"/>
-  <source src="sample.ogg" type="audio/ogg"/>
-  <p>Your browser does not support HTML5 audio.</p>
-</audio>
 
 Because no other screen space is required as in the video samples, the ```<audio>``` element has no height or width properties available.
 
