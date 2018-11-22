@@ -36,6 +36,14 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
   
   * #### [Show and hide elements](css/styling-elements-programmatically/show-hide-elements.md)
 
+* ### Implement HTML5 APIs
+
+  * #### Implement storage API
+  
+  * #### Implement AppCache API
+  
+  * #### Implement Geolocation API
+
 
 ## Sources
 
