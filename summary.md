@@ -32,7 +32,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Change the location of an element](css/styling-elements-programmatically/change-element-location.md)
   
-  * #### Apply a transform
+  * #### [Apply a transform](css/styling-elements-programmatically/applying-a-transform.md)
   
   * #### Show and hide elements
 
