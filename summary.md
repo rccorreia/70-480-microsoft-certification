@@ -38,7 +38,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
 * ### Implement HTML5 APIs
 
-  * #### Implement storage API
+  * #### [Implement storage API](html/apis/storage.md)
   
   * #### Implement AppCache API
   
