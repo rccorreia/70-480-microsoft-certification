@@ -34,7 +34,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
   
   * #### [Apply a transform](css/styling-elements-programmatically/applying-a-transform.md)
   
-  * #### Show and hide elements
+  * #### [Show and hide elements](css/styling-elements-programmatically/show-hide-elements.md)
 
 
 ## Sources
