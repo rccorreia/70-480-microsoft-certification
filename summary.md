@@ -44,6 +44,15 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
   
   * #### [Implement Geolocation API](html/apis/geolocation-api.md)
 
+* ### Establish the scope of objects and variables [summary](javascript/scope-objects-variables/scope-objects-variables-summary.md)
+
+  * #### [Define the lifetime of variables / locally and globally](javascript/scope-objects-variables/variable-lifetime-locally-globally.md)
+  
+  * #### [Keep objects out of the global namespace](javascript/scope-objects-variables/global-namespace.md)
+  
+  * #### [Use the “this” keyword to reference an object that fired an event](javascript/scope-objects-variables/this-keyword.md)
+  
+  * #### [Scope variables locally and globally](javascript/scope-objects-variables/locally-globally.md)
 
 ## Sources
 
