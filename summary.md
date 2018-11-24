@@ -52,6 +52,16 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
   
   * #### [Use the “this” keyword to reference an object that fired an event](javascript/scope-objects-variables/this-keyword.md)
 
+* ### Create and implement objects and methods [summary] (javascript/objects-methods/create-implement-objects-methods-summary.md)
+
+  * #### [Implement native objects] (javascript/objects-methods/implement-native-objects.md)
+
+  * #### [Create custom objects and custom properties for native objects using prototypes and functions] (javascript/objects-methods/prototypes-funcrions.md)
+
+  * #### [Inherit from an object] (javascript/objects-methods/inherit-from-object.md)
+
+  * #### [Implement native methods and create custom methods] (javascript/objects-methods/native-custom-methods.md)
+
 ## Sources
 
 I tried to indicate the source in every file. If some file has no source, maybe it is the product of a research in many sources. In case you saw something that you think is yours, please, open an issue so I can specify your content as the source.
