@@ -42,7 +42,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
   
   * #### [Implement AppCache API](html/apis/appcache-api.md)
   
-  * #### Implement Geolocation API
+  * #### [Implement Geolocation API](html/apis/geolocation-api.md)
 
 
 ## Sources
