@@ -43,7 +43,7 @@ Provides a built-in mechanism that continuously polls for the current position. 
   var watcher = geoLocator.watchPosition(successCallBack,errorCallback,positionOptions)
 ```
 
-The watcher variable holds a reference to the watchPosition instance being invoked, which can be useful later. The method calls the success callback method every time the Geolocation API detects a new location. The polling continues forever unless it you stop it. You can cancel polling by
+The watcher variable holds a reference to the watchPosition instance being invoked, which can be useful later. The method calls the success callback method every time the Geolocation API detects a new location. The polling continues forever unless it you stop it. You can cancel polling by calling the clearWatch method.
 
 ## Sources
 

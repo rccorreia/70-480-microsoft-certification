@@ -8,7 +8,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
 ## Implement and Manipulate Document Structures and Objects **(20-25%)**
 
-* ### Create the document structure by using HTML
+* ### Create the document structure by using HTML [summary](html/document-structure/document-structure-summary.md)
 
   * #### [The HTML5 outline algorithm](html/document-structure/outline-algorithm.md)
 
@@ -20,7 +20,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Optimizing for screen readers](html/document-structure/screen-readers.md)
 
-* ### Write code that interacts with UI controls
+* ### Write code that interacts with UI controls [summary](html/ui-control-interaction-code/ui-control-interaction-code-summary.md)
 
   * #### [Programmatically add and modify HTML elements](html/ui-control-interaction-code/add-modify-elements.md)
   
@@ -28,7 +28,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Implement HTML5 canvas and SVG graphics](html/ui-control-interaction-code/canvas-and-svg.md)
 
-* ### Apply styling to HTML elements programmatically
+* ### Apply styling to HTML elements programmatically [summary](css/styling-elements-programmatically/styling-elements-programmatically-summary.md)
 
   * #### [Change the location of an element](css/styling-elements-programmatically/change-element-location.md)
   
@@ -36,7 +36,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
   
   * #### [Show and hide elements](css/styling-elements-programmatically/show-hide-elements.md)
 
-* ### Implement HTML5 APIs
+* ### Implement HTML5 APIs [summary](html/apis/implement-html5-apis-summary.md)
 
   * #### [Implement storage API](html/apis/storage-api.md)
   
