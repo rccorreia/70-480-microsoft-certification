@@ -68,6 +68,8 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Evaluating expressions](javascript/implement-program-flow/evaluating-expressions.md)
 
+  * #### [Working with arrays](javascript/implement-program-flow/working-with-arrays.md)
+
 
 
 ## Sources
