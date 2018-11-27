@@ -70,7 +70,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Working with arrays](javascript/implement-program-flow/working-with-arrays.md)
 
-
+  * #### [Implementing special types of arrays](javascript/implement-program-flow/special-types-arrays.md)
 
 ## Sources
 
