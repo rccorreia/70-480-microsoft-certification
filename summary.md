@@ -60,6 +60,16 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Inherit from an object](javascript/objects-methods/inherit-from-object.md)
 
+  * #### [Implement native methods and create custom methods](javascript/objects-methods/native-custom-methods.md)
+
+## Implement Program Flow **(25-30%)**
+
+* ### Implement Program Flow [summary](javascript/implement-program-flow/implement-program-flow-summary.md)
+
+  * #### [Evaluating expressions](javascript/implement-program-flow/evaluating-expressions.md)
+
+
+
 ## Sources
 
 I tried to indicate the source in every file. If some file has no source, maybe it is the product of a research in many sources. In case you saw something that you think is yours, please, open an issue so I can specify your content as the source.
