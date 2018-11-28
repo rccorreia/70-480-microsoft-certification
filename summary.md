@@ -79,6 +79,8 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 * ### Raise and handle an event [summary](javascript/raise-handle-event/raise-handle-event-summary.md)
 
   * ####[Using events](javascript/raise-handle-event/using-events.md)
+  
+  * ####[Handle DOM events](javascript/raise-handle-event/handle-dom-events.md)
 
 ## Sources
 

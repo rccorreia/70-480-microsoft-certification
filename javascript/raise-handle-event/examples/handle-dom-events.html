@@ -1,0 +1,23 @@
+<html>
+  <header>
+    <script>
+      window.onload = function () {
+        document.getElementById("aRange").addEventListener("change", rangeChangeEvent);
+        document.getElementById("aText").addEventListener("change", rangeChangeEvent);
+      }
+      function rangeChangeEvent() {
+        document.getElementById("rangeValue").innerText = this.value;
+      }
+    </script>
+  </header>
+  <body>
+    <article>
+      <section>
+        <h2>Change events</h2>
+        <p><input id="aRange" type="range" max="200" min="0" value="0"/></p>
+        <p><input id="aText" type="text"/></p>
+        <div id="rangeValue"></div>
+      </section>
+    </article>
+  </body>
+</html>
