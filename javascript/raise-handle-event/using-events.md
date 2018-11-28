@@ -148,6 +148,43 @@ The ability to cancel event processing can be useful when you want to completely
 
 ## Declaring and handling bubbled events
 
+[Here](examples/using-events.html) is the example page.
+
+Event bubbling is the concept that applies when the HTML document has nested elements.
+
+The last parameter of the addEventListener method accepts an optional Boolean parameter. This parameter allows you to specify the cascading or bubbling effect of the event—that is to say, in which order the event processing occurs.
+
+In the example above one click event triggered all three events to fire. This concept is called event bubbling.
+
+The event has bubbled up to the top. If you prefer to have the events handled in the opposite order—that is, to have them cascade down—the last parameter specified by the addEventListener method is specified as true.
+This way, if you click in the center, the text would be the opposite
+
+```
+  With the last parameter set to false
+
+  1. inner Div Clicked
+  2. middle Div Clicked
+  3. outer Div Clicked
+
+
+  With the last parameter set to true
+
+  1. outer Div Clicked
+  2. middle Div Clicked
+  3. inner Div Clicked
+```
+
+The order of the event processing has reversed to be cascading instead of bubbling.
+
+However, the design of the webpage could involve nested elements, but each element’s click event should run only if the element is directly clicked. In this case, you can use a property of the event object called cancelBubble. If this property is set to true, the event bubbling or cascading stops with the event listener that sets it. This stops only the bubbling or cascading behavior. The code to cancel the bubbling of the event is added to the inner div element’s event listener:
+
+```
+  function innerDivClick() {
+    appendText("inner Div Clicked");
+    window.event.cancelBubble = true;
+  }
+```
+
 ## Source
 
 [Exam Ref 70-480 Programming in HTML5 with JavaScript and CSS3 (MCSD)](https://www.microsoft.com/en-us/p/exam-ref-70-480-programming-in-html5-with-javascript-and-css3-mcsd/fgqpf3h0qll7?activetab=pivot%3aoverviewtab)
