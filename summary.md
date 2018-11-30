@@ -81,6 +81,8 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
   * ####[Using events](javascript/raise-handle-event/using-events.md)
   
   * ####[Handle DOM events](javascript/raise-handle-event/handle-dom-events.md)
+  
+  * ####[Create custom events](javascript/raise-handle-event/create-custom-events.md)
 
 ## Sources
 
