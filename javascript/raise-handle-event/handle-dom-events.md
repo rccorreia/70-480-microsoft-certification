@@ -122,7 +122,9 @@ The mouse events provide additional information on the event object.
 
 A lot happens in a drag-and-drop operation, starting with the dragstart event. The drag event continues to fire while the element is being dragged. As the element is dragged over other elements, each of those other elements’ dragenter, dragover, and dragleave events fire. When the element finishes being dragged, its dragend event fires and the drop event of a target element fires. You can use all these events in combination to provide visual feedback to users that the drag operation is occurring and what might be a potentially valid drop location.
 
+### Note:
 
+For elements that don’t support drag-and-drop functionality by default, the default event mechanism must be canceled. This is why event.returnValue is set to false.
 
 ## Source
 
