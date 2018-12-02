@@ -1,0 +1,86 @@
+<html>
+  <script type="text/javascript">
+    window.onload = function (){
+      var wsConnection;
+      var chatBox = document.getElementById("chatWindow");
+      var disconnectButton = document.getElementById("Disconnect");
+      var connectButton = document.getElementById("Connect");
+      var sendButton = document.getElementById("Send");
+      var msgToSend = document.getElementById("msgSendText");
+      
+      disconnectButton.onclick = function () {
+        wsConnection.close();
+      }
+    
+      connectButton.onclick = function () {
+        //Or the use of wss for secure WebSockets. IE: wss://studygroup.70480.com
+        //Opens the WebSocket
+        wsConnection= new WebSocket('ws://studygroup.70480.com', ['soap', 'xmpp']);
+      }
+    
+      sendButton.onclick = function () {
+        //check the state of the connection
+        if (wsConnection.readyState == WebSocket.OPEN) {
+        //send message to server.
+          wsConnection.send(msgToSend.value);
+        }
+        else
+          return;
+        //show message in chat window.
+        NewLine();
+        chatBox.value = chatBox.value + "You: " + msgToSend.value;
+        //clear message text box
+        msgToSend.value = '';
+      }
+      
+      // event handler for when the WebSocket connection is established
+      wsConnection.onopen = function () {
+        chatBox.textContent = chatBox.textContent +
+        "System: Connection has been established";
+      }
+        
+      //event handler for when the WebSocket encounters an error
+      wsConnection.onerror = function (err) {
+        //write an error to the screen
+        NewLine();
+        chatBox.value = chatBox.value + "System: Error Occurred. ";
+      }
+        
+      wsConnection.onclose = function () {
+        //write the connection has been closed.
+        NewLine();
+        chatBox.value = chatBox.value + "System: Connection has been closed.";
+      }
+        
+      wsConnection.onmessage = function (msg) {
+        //write message
+        NewLine();
+        chatBox.value = chatBox.value + "Them: " + msg.data;
+      }
+
+      //helper functions.
+      function NewLine()
+      {
+        chatBox.textContent = chatBox.textContent + '\r\n';
+      }
+    }
+  </script>
+  <body>
+    <div align="center">
+      <div>
+        70-480 Study Group Chat Forum (Not-Working - Just an Example)
+      </div>
+      <div>
+        <textarea id="chatWindow" style="height: 500px; width: 300px"></textarea>
+      </div>
+      <div>
+        <input type="text" id="msgSendText" style="width: 300px"/>
+      </div>
+      <div>
+        <button id="Disconnect">Disconnect</button>
+        <button id="Connect">Connect</button>
+        <button id="Send">Send</button>
+      </div>
+    </div>
+  </body>
+</html>

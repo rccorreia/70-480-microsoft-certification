@@ -93,6 +93,8 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 * ### Implement a callback [summary](javascript/callback/callback-summary.md)
   
   * #### [Implement a callback - intro](javascript/callback/callback-intro.md)
+  
+  * #### [Implementing bidirectional communication with the WebSocket API](javascript/callback/websocket-api.md)
 
 ## Sources
 
