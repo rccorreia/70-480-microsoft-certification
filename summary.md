@@ -74,15 +74,19 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Using advanced array methods](javascript/implement-program-flow/advanced-array-methods.md)
 
-  * ####[Implement iterative control flow](javascript/implement-program-flow/iterative-control-flow.md)
+  * #### [Implement iterative control flow](javascript/implement-program-flow/iterative-control-flow.md)
   
 * ### Raise and handle an event [summary](javascript/raise-handle-event/raise-handle-event-summary.md)
 
-  * ####[Using events](javascript/raise-handle-event/using-events.md)
+  * #### [Using events](javascript/raise-handle-event/using-events.md)
   
-  * ####[Handle DOM events](javascript/raise-handle-event/handle-dom-events.md)
+  * #### [Handle DOM events](javascript/raise-handle-event/handle-dom-events.md)
   
-  * ####[Create custom events](javascript/raise-handle-event/create-custom-events.md)
+  * #### [Create custom events](javascript/raise-handle-event/create-custom-events.md)
+  
+* ### Implement exception handling [summary](javascript/exception-handling/exception-handling-summary.md)
+  
+  * #### [Implementing try...catch...finally constructs](javascript/exception-handling/try-catch-finally.md)
 
 ## Sources
 
