@@ -87,6 +87,8 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 * ### Implement exception handling [summary](javascript/exception-handling/exception-handling-summary.md)
   
   * #### [Implementing try...catch...finally constructs](javascript/exception-handling/try-catch-finally.md)
+  
+  * #### [Checking for null values](javascript/exception-handling/checking-null-values.md)
 
 ## Sources
 
