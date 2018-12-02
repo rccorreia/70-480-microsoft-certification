@@ -34,10 +34,13 @@
 
 #### Raise and handle an event
   * Handle common events exposed by DOM (OnBlur, OnFocus, OnClick); declare and handle bubbled events; handle an event by using an anonymous function
+
 #### Implement exception handling
   * Set and respond to error codes; throw an exception; request for null checks; implement try-catch-finally blocks
+
 #### Implement asynchronous programming
   * Receive messages from the HTML5 WebSocket API; use JQuery to make an AJAX call; wire up an event; implement a callback by using anonymous functions; handle the “this” pointer
+  
 #### Create a web worker process
   * Start and stop a web worker; pass data to a web worker; configure timeouts and intervals on the web worker; register an event listener for the web worker; limitations of a web worker
 
