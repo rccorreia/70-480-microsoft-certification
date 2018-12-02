@@ -89,7 +89,15 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
   * #### [Implementing try...catch...finally constructs](javascript/exception-handling/try-catch-finally.md)
   
   * #### [Checking for null values](javascript/exception-handling/checking-null-values.md)
+  
+* ### Implement a callback [summary](javascript/callback/callback-summary.md)
+  
+  * #### [Implement a callback - intro](javascript/callback/callback-intro.md)
 
 ## Sources
 
 I tried to indicate the source in every file. If some file has no source, maybe it is the product of a research in many sources. In case you saw something that you think is yours, please, open an issue so I can specify your content as the source.
+
+The principal source:
+
+[Exam Ref 70-480 Programming in HTML5 with JavaScript and CSS3 (MCSD)](https://www.microsoft.com/en-us/p/exam-ref-70-480-programming-in-html5-with-javascript-and-css3-mcsd/fgqpf3h0qll7?activetab=pivot%3aoverviewtab)
