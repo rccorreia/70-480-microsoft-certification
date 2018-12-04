@@ -97,6 +97,10 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
   * #### [Implementing bidirectional communication with the WebSocket API](javascript/callback/websocket-api.md)
   
   * #### [Making webpages dynamic with jQuery and AJAX](javascript/callback/jquery-ajax.md)
+  
+  * #### [Wiring up an event with jQuery](javascript/callback/wiringup-event-jquery.md)
+
+
 
 ## Sources
 
