@@ -103,8 +103,10 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
   * #### [Implementing a callback with an anonymous function](javascript/callback/callback-anonymous-function.md)
   
   * #### [Using the *this* pointer](javascript/callback/this-pointer.md)
-
-
+  
+* ### Create a web worker process [summary](javascript/web-worker/web-worker-summary.md)
+  
+  * #### [Getting started with a web worker process](javascript/web-worker/getting-started-webworker.md)
 
 ## Sources
 
