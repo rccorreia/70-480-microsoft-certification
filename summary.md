@@ -99,6 +99,8 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
   * #### [Making webpages dynamic with jQuery and AJAX](javascript/callback/jquery-ajax.md)
   
   * #### [Wiring up an event with jQuery](javascript/callback/wiringup-event-jquery.md)
+  
+  * #### [Implementing a callback with an anonymous function](javascript/callback/callback-anonymous-function.md)
 
 
 
