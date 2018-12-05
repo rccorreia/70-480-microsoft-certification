@@ -108,6 +108,12 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
   
   * #### [Getting started with a web worker process](javascript/web-worker/getting-started-webworker.md)
 
+  * #### [Creating a worker process with the Web Worker API](javascript/web-worker/web-worker-api.md)
+
+  * #### [Understanding web worker limitations](javascript/web-worker/web-worker-limitations.md)
+
+  * #### [Configuring timeouts and intervals](javascript/web-worker/timeouts-intervals.md)
+
 ## Sources
 
 I tried to indicate the source in every file. If some file has no source, maybe it is the product of a research in many sources. In case you saw something that you think is yours, please, open an issue so I can specify your content as the source.
