@@ -114,6 +114,12 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Configuring timeouts and intervals](javascript/web-worker/timeouts-intervals.md)
 
+* ### Access and secure data [summary](shared/access-secure-data/access-secure-data-summary.md)
+
+  * #### [Validate user input by using HTML5 element](html/access-secure-data/validate-user-input.md)
+
+  
+
 ## Sources
 
 I tried to indicate the source in every file. If some file has no source, maybe it is the product of a research in many sources. In case you saw something that you think is yours, please, open an issue so I can specify your content as the source.
