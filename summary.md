@@ -114,11 +114,13 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Configuring timeouts and intervals](javascript/web-worker/timeouts-intervals.md)
 
-* ### Access and secure data [summary](shared/access-secure-data/access-secure-data-summary.md)
+## Access and secure data **(25-30%)**
 
-  * #### [Validate user input by using HTML5 element](html/access-secure-data/validate-user-input.md)
+* ### [Validate user input by using HTML5 element](html/validate-user-input/validate-user-input-summary.md)
 
-  
+  * #### [Choosing input controls](html/validate-user-input/input-controls.md)
+
+  * #### [Implementing content attributes](html/validate-user-input/content-attributes.md)
 
 ## Sources
 
