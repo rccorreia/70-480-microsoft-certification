@@ -126,8 +126,9 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Evaluating regular expressions](javascript/validate-user-input/regular-expressions.md)
 
+  * #### [Validating data with built-in functions](javascript/validate-user-input/validate-built-in-functions.md)
 
-
+  * #### [Preventing code injection](javascript/validate-user-input/preventing-code-injection.md)
 
 ## Sources
 
