@@ -116,19 +116,27 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
 ## Access and secure data **(25-30%)**
 
-* ### [Validate user input by using HTML5 element](html/validate-user-input/validate-user-input-summary.md)
+* ### Validate user input by using HTML5 element [summary](html/validate-user-input/validate-user-input-summary.md)
 
   * #### [Choosing input controls](html/validate-user-input/input-controls.md)
 
   * #### [Implementing content attributes](html/validate-user-input/content-attributes.md)
 
-* ### [Validate user input by using JavaScript](javascript/validate-user-input/validate-user-input-summary.md)
+* ### Validate user input by using JavaScript [summary](javascript/validate-user-input/validate-user-input-summary.md)
 
   * #### [Evaluating regular expressions](javascript/validate-user-input/regular-expressions.md)
 
   * #### [Validating data with built-in functions](javascript/validate-user-input/validate-built-in-functions.md)
 
   * #### [Preventing code injection](javascript/validate-user-input/preventing-code-injection.md)
+
+* ### Consume data [summary](javascript/consume-data/consume-data-summary.md)
+
+  * #### [Consuming JSON and XML data by using web services](javascript/consume-data/consuming-json-xml.md)
+
+  * #### [Using the XMLHttpRequest object](javascript/consume-data/xmlhttprequest-object.md)
+
+
 
 ## Sources
 
