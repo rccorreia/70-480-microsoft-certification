@@ -1,6 +1,6 @@
 # Evaluating Regular Expressions
 
-[Here](examples/user-input.html) is the example page.
+[Here](examples/regex.html) is the example page.
 
 Regular expressions are patterns used to match character combinations in strings. It's a mix of special characters and literal characters that make up the pattern wanted.
 
@@ -59,8 +59,6 @@ The match method returns the part of the string that matches the pattern, much l
 ### Important!
 
 In the context where a website is expecting specifically formatted data, you can use regular expressions to validate the incoming data and prevent the possible crashing of the website or at least errors being presented to users.
-
-
 
 ## Sources
 
