@@ -41,3 +41,7 @@ Determinate:
 Indeterminate:
 
 <progress max="5"></progress>
+
+## Source:
+
+[MDN](https://developer.mozilla.org/)

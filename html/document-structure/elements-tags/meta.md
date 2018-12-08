@@ -37,3 +37,8 @@ Defines a pragma directive. The attribute is named http-equiv(alent) because all
 This attribute defines the name of a piece of document-level metadata. It should not be set if one of the attributes itemprop, http-equiv or charset is also set.
 
 There is a several possible values, that can be seen [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta), on "name" section.
+
+
+## Source:
+
+[MDN](https://developer.mozilla.org/)

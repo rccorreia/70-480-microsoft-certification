@@ -31,3 +31,7 @@ Don't confuse ```<mark>``` with the ```<strong>``` element; ```<mark>``` is used
 Which corresponds to:
 
 <p>This is a very <mark>important</mark> information!</p>
+
+## Source:
+
+[MDN](https://developer.mozilla.org/)

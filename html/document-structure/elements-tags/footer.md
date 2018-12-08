@@ -43,3 +43,7 @@ Which corresponds to:
         <p>© 2018 Gandalf</p>
     </footer>
 </article>
+
+## Source:
+
+[MDN](https://developer.mozilla.org/)
