@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <title>Validate user input with javascript - Example</title>
+  <script type="text/javascript">
+    function CheckString() {
+      try {
+        var s = $('#regExStringTest').val();
+        var regExpression = /^[A-Z,a-z]\d[A-Z,a-z][\s{1}]?\d[A-Z,a-z]\d/;
+        if (regExpression.test(s))
+          alert("Valid postal code.");
+        else
+          alert("Invalid postal code.");
+      } catch (e) {
+        alert(e.message);
+      }
+    }
+
+    function CheckStringExec() {
+      var s = $('#regExStringExec').val();
+      var regExpression = /^[A-Z,a-z]\d[A-Z,a-z][\s{1}]?\d[A-Z,a-z]\d/;
+      var results = regExpression.exec(s);
+      if (results != null)
+        alert("Valid postal code." + results[0]);
+      else
+        alert("Invalid postal code.");
+    }
+  </script>
+</head>
+
+<body>
+  <article>
+    <section>
+      <h1>Postal Code Regex</h1>
+      <form>
+        <p>
+          <h2>Test Method</h2>
+          <input type="text" id="regExStringTest" />
+          <button onclick="CheckString();">Evaluate with Test</button>
+        </p>
+        <p>
+          <h2>Exec Method</h2>
+          <input type="text" id="regExStringExec" />
+          <button onclick="CheckStringExec();">Evaluate with Exec</button>
+        </p>
+      </form>
+    </section>
+  </article>
+</body>
+
+</html>
