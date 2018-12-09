@@ -39,13 +39,25 @@
       text-indent: 2em;
     }
 
-.letter-spacing {
-  letter-spacing: 1em;
-}
+    .letter-spacing {
+      letter-spacing: 1em;
+    }
 
-.word-spacing {
-  word-spacing: 2em;
-}
+    .word-spacing {
+      word-spacing: 2em;
+    }
+
+    .hyphen-none {
+      hyphens: none;
+    }
+
+    .hyphen-auto {
+      hyphens: auto;
+    }
+
+    .hyphen-manual {
+      hyphens: manual;
+    }
   </style>
 </head>
 
@@ -73,6 +85,18 @@
       <h3>Text spacing</h3>
       <p class="letter-spacing">Letters spaced in here</p>
       <p class="word-spacing">Words spaced in here</p>
+    </section>
+    <section>
+      <h2>Applying styles to text hyphenation</h2>
+      <div style="width: 40px; border:1px solid black;">
+        <p class="hyphen-none">Long sentence and a weird&shy;long&shy;word in a small div</p>
+      </div>
+      <div style="width: 40px; border:1px solid black;">
+        <p class="hyphen-auto">Second long sentence and a weird&shy;long&shy;word in a small div</p>
+      </div>
+      <div style="width: 40px; border:1px solid black;">
+        <p class="hyphen-manual">Third long sentence and a weird&shy;long&shy;word in a small div</p>
+      </div>
     </section>
   </article>
 </body>
