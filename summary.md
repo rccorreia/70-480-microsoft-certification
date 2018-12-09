@@ -146,7 +146,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
 ## Use CSS3 in Applications **(25-30%)**
 
-* ### Style HTML text properties [summary](css/style-html-text/style-html-text.md)
+* ### Style HTML text properties [summary](css/style-html-text/style-html-text-summary.md)
 
   * #### [Apply styles to text appearance](css/style-html-text/text-appearance.md)
 
