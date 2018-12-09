@@ -144,6 +144,12 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Serializing and deserializing binary data](javascript/serialize-deserialize-transmit/binary-data.md)
 
+## Use CSS3 in Applications **(25-30%)**
+
+* ### Style HTML text properties [summary](css/style-html-text/style-html-text.md)
+
+  * #### [Apply styles to text appearance](css/style-html-text/text-appearance.md)
+
 
 ## Sources
 
