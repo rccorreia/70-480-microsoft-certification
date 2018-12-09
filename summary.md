@@ -150,6 +150,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Apply styles to text appearance](css/style-html-text/text-appearance.md)
 
+  * #### [Apply styles to text font](css/style-html-text/text-font.md)
 
 ## Sources
 
