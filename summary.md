@@ -144,6 +144,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Serializing and deserializing binary data](javascript/serialize-deserialize-transmit/binary-data.md)
 
+
 ## Sources
 
 I tried to indicate the source in every file. If some file has no source, maybe it is the product of a research in many sources. In case you saw something that you think is yours, please, open an issue so I can specify your content as the source.
