@@ -75,7 +75,7 @@
 
 [XMLHttpRequest object](http://msdn.microsoft.com/library/ie/ms535874(v=vs.85).aspx)
 
-#### Use CSS3 in Applications **(25-30%)**
+### Use CSS3 in Applications **(25-30%)**
 
 #### Style HTML text properties
   * Apply styles to text appearance; apply styles to text font, including WOFF, @font-face, size, and understudy fonts; apply styles to text alignment, spacing, and indentation; apply styles to text hyphenation; apply styles for a text drop shadow
