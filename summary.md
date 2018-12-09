@@ -136,6 +136,10 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Using the XMLHttpRequest object](javascript/consume-data/xmlhttprequest-object.md)
 
+* ### Serialize, deserialize and transmit data [summary](javascript/serialize-deserialize-transmit/serialize-deserialize-transmit-summary.md)
+
+  * #### [Sending data by using XMLHttpRequest](javascript/serialize-deserialize-transmit/sending-data-xmlhttprequest.md)
+
 
 
 ## Sources
