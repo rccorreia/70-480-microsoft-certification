@@ -140,7 +140,9 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Sending data by using XMLHttpRequest](javascript/serialize-deserialize-transmit/sending-data-xmlhttprequest.md)
 
+  * #### [Serializing and deserializing JSON data](javascript/serialize-deserialize-transmit/json-data.md)
 
+  * #### [Serializing and deserializing binary data](javascript/serialize-deserialize-transmit/binary-data.md)
 
 ## Sources
 
