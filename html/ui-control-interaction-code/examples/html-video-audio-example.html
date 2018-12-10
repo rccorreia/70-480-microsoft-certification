@@ -1,57 +1,57 @@
 <html lang="en">
-  <head>
-    <style>
-      img:hover {
-        cursor: pointer;
-      }
-    </style>
-    <script>
-      var video;
-      window.onload = function () {
-        video = document.getElementById("sampleVideo");
-      }
-      
-      function play() {
-        video.play();
-      }
-    
-      function pause() {
-        video.pause();
-      }
-    
-      function back() {
-        video.currentTime -= 10;
-      }
-    </script>
-  </head>
-  <body>
-    <table>
-      <tr>
-        <td>
-          <video height="400" width="600" id="sampleVideo">
-            <source src="videos/SampleVideo_720x480_1mb.mp4" type="audio/mp4"/>
-          </video>
-        </td>
-        <td>
-          <img id="backButton" src="images/backword.png" onclick="back();"/><br/>
-          <img id="playButton" src="images/forward.png" onclick="play();"/><br/>
-          <img id="PauseButton" src="images/pause.png" onclick="pause();"/><br/>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <audio controls>
-            <source src="audios/SampleAudio_0.4mb.mp3" type="audio/mp3"/>
-            <p>Your browser does not support HTML5 audio.</p>
-          </audio>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>This video and audio are not mine. It was downloaded <a href="https://sample-videos.com/">here</a>.</p>
-          <p>If you are the owner and want me to remove them, please, open an issue so I can remove it.</p>
-        </td>
-      </tr>
-    </table>
-  </body>
+
+<head>
+  <title>HTML Video Audio Examples</title>
+  <link rel="stylesheet" href="html-video-audio-example.css">
+  <script>
+    var video;
+    window.onload = function () {
+      video = document.getElementById("sampleVideo");
+    }
+
+    function play() {
+      video.play();
+    }
+
+    function pause() {
+      video.pause();
+    }
+
+    function back() {
+      video.currentTime -= 10;
+    }
+  </script>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td>
+        <video height="400" width="600" id="sampleVideo">
+          <source src="videos/SampleVideo_720x480_1mb.mp4" type="audio/mp4" />
+        </video>
+      </td>
+      <td>
+        <img id="backButton" src="images/backword.png" onclick="back();" /><br />
+        <img id="playButton" src="images/forward.png" onclick="play();" /><br />
+        <img id="PauseButton" src="images/pause.png" onclick="pause();" /><br />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/SampleAudio_0.4mb.mp3" type="audio/mp3" />
+          <p>Your browser does not support HTML5 audio.</p>
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>This video and audio are not mine. It was downloaded <a href="https://sample-videos.com/">here</a>.</p>
+        <p>If you are the owner and want me to remove them, please, open an issue so I can remove it.</p>
+      </td>
+    </tr>
+  </table>
+</body>
+
 </html>

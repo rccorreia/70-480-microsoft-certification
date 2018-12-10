@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Show and Hide elements example page</title>
-    <script>
-      window.onload = function () {
-        document.getElementById("btnHideAnElement").onclick = function () {
-          if (document.getElementById("innerDiv").style.display == 'inline') {
-            document.getElementById("innerDiv").style.display = 'none';
-          }
-          else {
-            document.getElementById("innerDiv").style.display = 'inline';
-          }
+
+<head>
+  <meta charset="utf-8" />
+  <title>Show and Hide elements example page</title>
+  <script>
+    window.onload = function () {
+      document.getElementById("btnHideAnElement").onclick = function () {
+        if (document.getElementById("innerDiv").style.display == 'inline') {
+          document.getElementById("innerDiv").style.display = 'none';
+        }
+        else {
+          document.getElementById("innerDiv").style.display = 'inline';
         }
       }
-      </script>
-  </head>
-  <body>
-    <article>
-      <section>
-        <form>
-          <button type="button" id="btnHideAnElement" >Show/Hide Element</button>
-        </form>
-      </section>
-      <section>
-        <div id="innerDiv" style="display: inline;">
-          <p class='subPara' id='P1'>Paragraph 1</p>
-          <p class='subPara' id='P2'>Paragraph 2</p>
-          <p class='subPara' id='P3'>Paragraph 3</p>
-          <p class='subPara' id='P4'>Paragraph 4</p>
-        </div>
-      </section>
-    </article>
-  </body>
-</html>
+    }
+  </script>
+</head>
 
+<body>
+  <article>
+    <section>
+      <form>
+        <button type="button" id="btnHideAnElement">Show/Hide Element</button>
+      </form>
+    </section>
+    <section>
+      <div id="innerDiv" style="display: inline;">
+        <p class='subPara' id='P1'>Paragraph 1</p>
+        <p class='subPara' id='P2'>Paragraph 2</p>
+        <p class='subPara' id='P3'>Paragraph 3</p>
+        <p class='subPara' id='P4'>Paragraph 4</p>
+      </div>
+    </section>
+  </article>
+</body>
+
+</html>

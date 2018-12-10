@@ -1,92 +1,66 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Transform example page</title>
-    <style>
-      .style {
-        height: 150px;
-        width: 225px;
+
+<head>
+  <meta charset="utf-8" />
+  <title>Transform example page</title>
+  <link rel="stylesheet" href="transform.css">
+  <script>
+    window.onload = function () {
+      document.getElementById("rotate").onclick = function () {
+        this.classList.add("rotate");
       }
 
-      .rotate {
-        transform: rotate(90deg);
+      document.getElementById("translate").onclick = function () {
+        this.classList.add("translate");
       }
 
-      .translate {
-        transform: translate(50px, 0px);
+      document.getElementById("skew").onclick = function () {
+        this.classList.add("skew");
       }
 
-      .skew {
-        transform: skew(15deg, 15deg);
+      document.getElementById("scaleLarger").onclick = function () {
+        this.classList.add("scaleLarger");
       }
 
-      .scaleLarger {
-        transform: Scale(1.5);
+      document.getElementById("scaleSmaller").onclick = function () {
+        this.classList.add("scaleSmaller");
       }
 
-      .scaleSmaller {
-        transform: Scale(0.75);
+      document.getElementById("scaleFlip").onclick = function () {
+        this.classList.add("scaleFlip");
       }
+    }
+  </script>
+</head>
 
-      .scaleFlip {
-        transform: Scale(-1.5);
-      }
-    </style>
-    <script>
-      window.onload = function () {
-        document.getElementById("rotate").onclick = function () {
-          this.classList.add("rotate");
-        }
+<body>
+  <article>
+    <section>
+      <h2>Click to Rotate</h2>
+      <img id="rotate" class="style" style="position:relative" src="images/automobile-automotive-blurred-background-385997.jpg" />
+    </section>
+    <section>
+      <h2>Click to Translate</h2>
+      <img id="translate" class="style" style="position:relative" src="images/automobile-automotive-blurred-background-385997.jpg" />
+    </section>
+    <section>
+      <h2>Click to <i>Skew</i></h2>
+      <img id="skew" class="style" style="position:relative" src="images/automobile-automotive-blurred-background-385997.jpg" />
+    </section>
+    <section>
+      <h2>Click to Scale (Larger)</h2>
+      <img id="scaleLarger" class="style" style="position:relative" src="images/automobile-automotive-blurred-background-385997.jpg" />
+    </section>
+    <section>
+      <h2>Click to Scale (Smaller)</h2>
+      <img id="scaleSmaller" class="style" style="position:relative" src="images/automobile-automotive-blurred-background-385997.jpg" />
+    </section>
+    <section>
+      <h2>Click to Scale (Flip Horizontal Axis and Larger)</h2>
+      <img id="scaleFlip" class="style" style="position:relative" src="images/automobile-automotive-blurred-background-385997.jpg" />
+    </section>
+  </article>
+</body>
 
-        document.getElementById("translate").onclick = function () {
-          this.classList.add("translate");
-        }
-
-        document.getElementById("skew").onclick = function () {
-          this.classList.add("skew");
-        }
-
-        document.getElementById("scaleLarger").onclick = function () {
-          this.classList.add("scaleLarger");
-        }
-
-        document.getElementById("scaleSmaller").onclick = function () {
-          this.classList.add("scaleSmaller");
-        }
-
-        document.getElementById("scaleFlip").onclick = function () {
-          this.classList.add("scaleFlip");
-        }
-      }
-    </script>
-  </head>
-  <body>
-    <article>
-        <section>
-          <h2>Click to Rotate</h2>
-          <img id="rotate" class="style" style="position:relative" src="images/automobile-automotive-blurred-background-385997.jpg"/>
-        </section>
-        <section>
-          <h2>Click to Translate</h2>
-          <img id="translate" class="style" style="position:relative" src="images/automobile-automotive-blurred-background-385997.jpg"/>
-        </section>
-        <section>
-          <h2>Click to <i>Skew</i></h2>
-          <img id="skew" class="style" style="position:relative" src="images/automobile-automotive-blurred-background-385997.jpg"/>
-        </section>
-        <section>
-          <h2>Click to Scale (Larger)</h2>
-          <img id="scaleLarger" class="style" style="position:relative" src="images/automobile-automotive-blurred-background-385997.jpg"/>
-        </section>
-        <section>
-          <h2>Click to Scale (Smaller)</h2>
-          <img id="scaleSmaller" class="style" style="position:relative" src="images/automobile-automotive-blurred-background-385997.jpg"/>
-        </section>
-        <section>
-          <h2>Click to Scale (Flip Horizontal Axis and Larger)</h2>
-          <img id="scaleFlip" class="style" style="position:relative" src="images/automobile-automotive-blurred-background-385997.jpg"/>
-        </section>
-    </article>
-  </body>
 </html>
