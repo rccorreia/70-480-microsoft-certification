@@ -1,0 +1,104 @@
+<html>
+
+<head>
+  <title>Css Examples for styling box</title>
+  <style>
+    .parent-size {
+      height: 75%;
+      width: 75%;
+      background-color: blue;
+    }
+
+    .specific-size {
+      height: 75px;
+      width: 125px;
+      background-color: gray;
+    }
+
+    .bordered-div {
+      border: 15px solid red;
+    }
+
+    .different-borders {
+      border-top: 10px solid green;
+      border-left: 8px solid green;
+      border-right: 5px solid green;
+      border-bottom: 2px solid green;
+    }
+
+    .padding-div {
+      padding: 10px;
+    }
+
+    .different-paddings {
+      padding-top: 5px;
+      padding-left: 8px;
+      padding-right: 12px;
+      padding-bottom: 15px;
+    }
+
+    .margin-div {
+      margin: 10px;
+    }
+
+    .different-margins {
+      margin-top: 15px;
+      margin-left: 10px;
+      margin-right: 15px;
+      margin-bottom: 10px;
+    }
+    
+    .padding-border-margin {
+      background-color: white;
+      border-top: 75px solid black;
+      border-left: 10px solid black;
+      border-right: 10px solid black;
+      border-bottom: 75px solid black;
+      margin-top: 10px;
+      margin-bottom: 25px;
+      margin-left: 40px;
+      margin-right: 55px;
+      padding-top: 50px;
+      padding-bottom: 35px;
+      padding-left: 20px;
+      padding-right: 5px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <article>
+    <h1>Styling Box</h1>
+    <section>
+      <h2>Applying styles to alter appearance attributes</h2>
+      <h3>Altering the size</h3>
+      <div style="height: 200px; width: 150px; border: 1px solid black">
+        <div class="parent-size"></div>
+      </div>
+      <div class="specific-size"></div>
+      <h3>Bordering</h3>
+      <div style="height: 100px; width: 150px;">
+        <div class="bordered-div">Hello</div>
+        <div class="different-borders">World</div>
+      </div>
+      <h3>Padding and margin</h3>
+      <h4>Padding</h4>
+      <div style="height: 100px; width: 150px;">
+        <div class="padding-div">Hello</div>
+        <div class="different-paddings">World again</div>
+      </div>
+      <h4>Margin</h4>
+      <div style="height: 100px; width: 150px;">
+        <div class="margin-div">Hello</div>
+        <div class="different-margins">World third time</div>
+      </div>
+      <h3>Graphical example of Padding, Border and Margin</h3>
+      <div style="height: 300px; width: 450px;background-color: yellow; border: 5px solid yellowgreen">
+        <div class="padding-border-margin">Teste</div>
+      </div>
+    </section>
+  </article>
+</body>
+
+</html>

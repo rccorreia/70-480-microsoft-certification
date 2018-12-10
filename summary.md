@@ -156,6 +156,10 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   * #### [Applying styles to text hyphenation](css/style-html-text/text-hyphenation.md)
 
+* ### Style HTML box properties [summary](css/style-html-box/style-html-box-summary.md)
+
+  * #### [Applying styles to alter appearance attributes](css/style-html-box/box-appearance.md)
+
 ## Sources
 
 I tried to indicate the source in every file. If some file has no source, maybe it is the product of a research in many sources. In case you saw something that you think is yours, please, open an issue so I can specify your content as the source.
