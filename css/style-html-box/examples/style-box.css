@@ -59,3 +59,35 @@
   padding-right: 5px;
   text-align: center;
 }
+
+.full-opacity {
+  opacity: 1.0;
+}
+
+.medium-opacity {
+  opacity: 0.5;
+}
+
+.banana {
+  background-image: url('images/bananas.jpg');
+  color: yellow;
+  width: 200px;
+  height: 133px;
+  text-align: center;
+}
+
+.banana-repeated {
+  background-image: url('images/bananas.jpg');
+  background-size: 50px;
+  background-repeat: repeat;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  color: white;
+}
+
+.gradient-image {
+  width: 200px;
+  height: 133px;
+  background: linear-gradient(blue,gray);
+}
