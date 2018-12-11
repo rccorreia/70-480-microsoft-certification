@@ -168,7 +168,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Implement a layout using a flexible box model](css/flexible-content-layout/flexible-box.md)
 
-  Implement a layout using multi-column
+  - #### [Implement a layout using multi-column](css/flexible-content-layout/multi-column.md)
 
   Implement a layout using position, floating, and exclusions
 
