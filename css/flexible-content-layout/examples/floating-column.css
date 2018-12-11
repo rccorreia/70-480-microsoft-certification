@@ -1,0 +1,10 @@
+p {
+  width: 550px;
+  padding-left: 50px;
+}
+
+img {
+  position: absolute;
+  -ms-wrap-flow: both;
+  -ms-wrap-margin: 15px;
+}

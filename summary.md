@@ -170,7 +170,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Implement a layout using multi-column](css/flexible-content-layout/multi-column.md)
 
-  Implement a layout using position, floating, and exclusions
+  - #### [Implement a layout using position, floating, and exclusions](css/flexible-content-layout/position-floating-exclusions.md)
 
   Implement a layout using grid alignment
 
