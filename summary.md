@@ -172,8 +172,8 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Implement a layout using position, floating, and exclusions](css/flexible-content-layout/position-floating-exclusions.md)
 
-  Implement a layout using grid alignment
-
+  - #### [Implement a layout using grid alignment](css/flexible-content-layout/grid-alignment.md)
+  
   Implement a layout using regions, grouping, and nesting
 
 ## Sources
