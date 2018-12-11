@@ -164,6 +164,18 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Apply styles to establish and change an element’s position](css/style-html-box/elements-position.md)
 
+- ### Create a flexible content layout [summary](css/flexible-content-layout/flexible-content-layout-summary.md)
+
+  - #### [Implement a layout using a flexible box model](css/flexible-content-layout/flexible-box.md)
+
+  Implement a layout using multi-column
+
+  Implement a layout using position, floating, and exclusions
+
+  Implement a layout using grid alignment
+
+  Implement a layout using regions, grouping, and nesting
+
 ## Sources
 
 I tried to indicate the source in every file. If some file has no source, maybe it is the product of a research in many sources. In case you saw something that you think is yours, please, open an issue so I can specify your content as the source.

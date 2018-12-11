@@ -1,0 +1,144 @@
+#flexboxExampleRow {
+  display: flex;
+  border: 1px solid black;
+  margin-top: 10px;
+  min-height: 15px;
+}
+
+#flexboxExampleRowReverse {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid black;
+  margin-top: 10px;
+  min-height: 15px;
+}
+
+#flexboxExampleJustifyContentFlexEnd {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid black;
+  margin-top: 10px;
+  min-height: 15px;
+}
+
+#flexboxExampleReverseJustifyContentFlexEnd {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  border: 1px solid black;
+  margin-top: 10px;
+  min-height: 15px;
+}
+
+.flexbox > div {
+  min-width: 80px;
+  min-height: 80px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.flexbox > div:nth-child(1) {
+  background-color: green;
+}
+
+.flexbox > div:nth-child(2) {
+  background-color: yellow;
+}
+
+.flexbox > div:nth-child(3) {
+  background-color: red;
+}
+
+#flexboxWithFlexOnChildren {
+  display: flex;
+  border: 1px solid black;
+  margin-top: 10px;
+  min-height: 15px;
+}
+
+#flexboxWithFlexOnChildren > div {
+  min-width: 80px;
+  min-height: 80px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+#flexboxWithFlexOnChildren > div:nth-child(1) {
+  background-color: green;
+  flex: 2;
+}
+
+#flexboxWithFlexOnChildren > div:nth-child(2) {
+  background-color: yellow;
+  flex: 15;
+}
+
+#flexboxWithFlexOnChildren > div:nth-child(3){
+  background-color: red;
+  flex: 3;
+}
+
+#flexboxWithFlexOrder {
+  display: flex;
+  border: 1px solid black;
+  margin-top: 10px;
+  min-height: 15px;
+}
+
+#flexboxWithFlexOrder > div {
+  min-width: 80px;
+  min-height: 80px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+#flexboxWithFlexOrder > div:nth-child(1) {
+  background-color: green;
+  order: 2;
+}
+
+#flexboxWithFlexOrder > div:nth-child(2) {
+  background-color: yellow;
+  order: 1;
+}
+
+#flexboxWithFlexOrder > div:nth-child(3){
+  background-color: red;
+  order: 3;
+}
+
+#flexboxWrap {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  margin-top: 10px;
+  min-height: 15px;
+  width: 200px;
+}
+
+#flexboxWrap > div {
+  min-width: 80px;
+  min-height: 80px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+#flexboxWrap > div:nth-child(1) {
+  background-color: green;
+}
+
+#flexboxWrap > div:nth-child(2) {
+  background-color: yellow;
+}
+
+#flexboxWrap > div:nth-child(3){
+  background-color: red;
+}
+
+#flexboxWrap > div:nth-child(4) {
+  background-color: purple;
+}
+
+#flexboxWrap > div:nth-child(5){
+  background-color: blue;
+}
