@@ -61,7 +61,7 @@
 }
 
 .full-opacity {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .medium-opacity {
@@ -69,7 +69,7 @@
 }
 
 .banana {
-  background-image: url('images/bananas.jpg');
+  background-image: url("images/bananas.jpg");
   color: yellow;
   width: 200px;
   height: 133px;
@@ -77,7 +77,7 @@
 }
 
 .banana-repeated {
-  background-image: url('images/bananas.jpg');
+  background-image: url("images/bananas.jpg");
   background-size: 50px;
   background-repeat: repeat;
   width: 200px;
@@ -89,5 +89,78 @@
 .gradient-image {
   width: 200px;
   height: 133px;
-  background: linear-gradient(blue,gray);
+  background: linear-gradient(blue, gray);
+}
+
+.solid-box-shadow {
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  box-shadow: 10px 10px;
+}
+
+.fade-box-shadow {
+  margin-top: 20px;
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  box-shadow: 10px 10px 10px;
+}
+
+.spread-box-shadow {
+  margin-top: 20px;
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  box-shadow: 10px 10px 10px 15px;
+}
+
+.really-far-box-shadow {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  box-shadow: 100px 100px 10px;
+}
+
+.inset-box-shadow {
+  margin-top: 20px;
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  box-shadow: 10px 10px inset;
+}
+
+.colored-box-shadow {
+  margin-top: 20px;
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  box-shadow: 10px 10px red;
+}
+
+.text-shadow {
+  margin-top: 20px;
+  margin-left: 20px;
+  left: 50px;
+  top: 50px;
+  text-shadow: -15px -15px orange;
+}
+
+.clipper {
+  position: absolute;
+  clip: rect(80px, 220px, 210px, 90px);
 }

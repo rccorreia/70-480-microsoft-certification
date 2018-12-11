@@ -1,56 +1,70 @@
 <html>
+  <head>
+    <title>Css Examples for styling box</title>
+    <link rel="stylesheet" href="style-box.css" />
+  </head>
 
-<head>
-  <title>Css Examples for styling box</title>
-  <link rel="stylesheet" href="style-box.css">
-</head>
-
-<body>
-  <article>
-    <h1>Styling Box</h1>
-    <section>
-      <h2>Applying styles to alter appearance attributes</h2>
-      <h3>Altering the size</h3>
-      <div style="height: 200px; width: 150px; border: 1px solid black">
-        <div class="parent-size"></div>
-      </div>
-      <div class="specific-size"></div>
-      <h3>Bordering</h3>
-      <div style="height: 100px; width: 150px;">
-        <div class="bordered-div">Hello</div>
-        <div class="different-borders">World</div>
-      </div>
-      <h3>Padding and margin</h3>
-      <h4>Padding</h4>
-      <div style="height: 100px; width: 150px;">
-        <div class="padding-div">Hello</div>
-        <div class="different-paddings">World again</div>
-      </div>
-      <h4>Margin</h4>
-      <div style="height: 100px; width: 150px;">
-        <div class="margin-div">Hello</div>
-        <div class="different-margins">World third time</div>
-      </div>
-      <h3>Graphical example of Padding, Border and Margin</h3>
-      <div style="height: 300px; width: 450px;background-color: yellow; border: 5px solid yellowgreen">
-        <div class="padding-border-margin">Teste</div>
-      </div>
-    </section>
-    <section>
-      <h2>Applying styles to alter graphic effects</h2>
-      <h3>Applying transparency/opacity</h3>
-      <p class="full-opacity">Full opacity text here</p>
-      <p class="medium-opacity">Medium opacity text here</p>
-      <h3>Applying a background image</h3>
-      <p class="banana">Banana!</p>
-      <div class="banana-repeated"></div>
-      <p>Banana photo by Juan Salamanca from Pexels</p>
-      <h3>Applying gradients</h3>
-      <div class="gradient-image"></div>
-      <h3>Applying a shadow effect</h3>
-      
-    </section>
-  </article>
-</body>
-
+  <body>
+    <article>
+      <h1>Styling Box</h1>
+      <section>
+        <h2>Applying styles to alter appearance attributes</h2>
+        <h3>Altering the size</h3>
+        <div style="height: 200px; width: 150px; border: 1px solid black">
+          <div class="parent-size"></div>
+        </div>
+        <div class="specific-size"></div>
+        <h3>Bordering</h3>
+        <div style="height: 100px; width: 150px;">
+          <div class="bordered-div">Hello</div>
+          <div class="different-borders">World</div>
+        </div>
+        <h3>Padding and margin</h3>
+        <h4>Padding</h4>
+        <div style="height: 100px; width: 150px;">
+          <div class="padding-div">Hello</div>
+          <div class="different-paddings">World again</div>
+        </div>
+        <h4>Margin</h4>
+        <div style="height: 100px; width: 150px;">
+          <div class="margin-div">Hello</div>
+          <div class="different-margins">World third time</div>
+        </div>
+        <h3>Graphical example of Padding, Border and Margin</h3>
+        <div
+          style="height: 300px; width: 450px;background-color: yellow; border: 5px solid yellowgreen"
+        >
+          <div class="padding-border-margin">Teste</div>
+        </div>
+      </section>
+      <section>
+        <h2>Applying styles to alter graphic effects</h2>
+        <h3>Applying transparency/opacity</h3>
+        <p class="full-opacity">Full opacity text here</p>
+        <p class="medium-opacity">Medium opacity text here</p>
+        <h3>Applying a background image</h3>
+        <p class="banana">Banana!</p>
+        <div class="banana-repeated"></div>
+        <p>Banana photo by Juan Salamanca from Pexels</p>
+        <h3>Applying gradients</h3>
+        <div class="gradient-image"></div>
+        <h3>Applying a shadow effect</h3>
+        <h4>Box Shadows</h4>
+        <div class="solid-box-shadow"></div>
+        <div class="fade-box-shadow"></div>
+        <div class="spread-box-shadow"></div>
+        <div class="really-far-box-shadow"></div>
+        <div class="inset-box-shadow"></div>
+        <div class="colored-box-shadow"></div>
+        <h4>Text Shadows</h4>
+        <p class="text-shadow">Text Shadow Example</p>
+      </section>
+      <section>
+        <h2>Applying clipping (deprecated)</h2>
+        <img src="images/snow-dog.png" style="height: 400px;width: 500px;"/>
+        <img class="clipper" src="images/snow-dog.png"/>
+        <p>Photo by Pete Johnson from Pexels</p>
+      </section>
+    </article>
+  </body>
 </html>
