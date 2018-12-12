@@ -176,6 +176,34 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Implement a layout using regions, grouping, and nesting](css/flexible-content-layout/regions-grouping-nesting.md)
 
+- ### Create an animated and adaptive UI [summary](css/animated-adaptive-ui/animated-adaptive-ui-summary.md)
+
+  - #### [Animating objects by applying CSS transitions](css/animated-adaptive-ui/css-transitions.md)
+
+  Applying 3-D and 2-D transformations
+
+  Adjusting UI based on media queries
+
+  Hiding or disabling controls
+
+Find elements using CSS selectors and jQuery
+
+  Defining element, style, and attribute selectors
+
+  Choosing the correct selector to reference an element
+
+  Finding elements by using pseudo-elements and pseudo-classes
+
+Structure a CSS file by using CSS selectors
+
+  Referencing elements correctly
+
+  Implementing inheritance
+
+  Overriding inheritance using !important
+
+  Styling an element based on pseudo-elements and pseudo-classes
+
 ## Sources
 
 I tried to indicate the source in every file. If some file has no source, maybe it is the product of a research in many sources. In case you saw something that you think is yours, please, open an issue so I can specify your content as the source.
