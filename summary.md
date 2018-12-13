@@ -184,7 +184,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Adjusting UI based on media queries](css/animated-adaptive-ui/media-queries.md)
 
-  Hiding or disabling controls
+  - #### [Hiding or disabling controls](css/animated-adaptive-ui/hiding-disabling-controls.md)
 
 Find elements using CSS selectors and jQuery
 
