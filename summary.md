@@ -182,7 +182,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Applying 3-D and 2-D transformations](css/animated-adaptive-ui/3d-2d-transformations.md)
 
-  Adjusting UI based on media queries
+  - #### [Adjusting UI based on media queries](css/animated-adaptive-ui/media-queries.md)
 
   Hiding or disabling controls
 
