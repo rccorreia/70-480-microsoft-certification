@@ -194,9 +194,9 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Finding elements by using pseudo-elements and pseudo-classes](css/selectors-jquery/pseudo-elements-pseudo-classes.md)
 
-Structure a CSS file by using CSS selectors
+- ### Structure a CSS file by using CSS selectors [summary](css/css-selectors/css-selectors-summary.md)
 
-  Referencing elements correctly
+  - #### [Referencing elements correctly](css/css-selectors/referencing-elements.md)
 
   Implementing inheritance
 
