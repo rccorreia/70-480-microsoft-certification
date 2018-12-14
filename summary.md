@@ -200,7 +200,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Implementing inheritance](css/css-selectors/implementing-inheritance.md)
 
-  Overriding inheritance using !important
+  - #### [Overriding inheritance using !important](css/css-selectors/important-keyword.md)
 
   Styling an element based on pseudo-elements and pseudo-classes
 
