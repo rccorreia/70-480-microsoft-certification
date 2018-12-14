@@ -192,9 +192,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Choosing the correct selector to reference an element](css/selectors-jquery/correct-selector.md)
 
-  
-
-  Finding elements by using pseudo-elements and pseudo-classes
+  - #### [Finding elements by using pseudo-elements and pseudo-classes](css/selectors-jquery/pseudo-elements-pseudo-classes.md)
 
 Structure a CSS file by using CSS selectors
 
