@@ -198,7 +198,7 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Referencing elements correctly](css/css-selectors/referencing-elements.md)
 
-  Implementing inheritance
+  - #### [Implementing inheritance](css/css-selectors/implementing-inheritance.md)
 
   Overriding inheritance using !important
 
