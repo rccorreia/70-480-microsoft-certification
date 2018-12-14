@@ -190,7 +190,9 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Defining element, style, and attribute selectors](css/selectors-jquery/element-style-attribute-selectors.md)
 
-  Choosing the correct selector to reference an element
+  - #### [Choosing the correct selector to reference an element](css/selectors-jquery/correct-selector.md)
+
+  
 
   Finding elements by using pseudo-elements and pseudo-classes
 
