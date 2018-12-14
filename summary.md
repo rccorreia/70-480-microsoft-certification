@@ -186,9 +186,9 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Hiding or disabling controls](css/animated-adaptive-ui/hiding-disabling-controls.md)
 
-Find elements using CSS selectors and jQuery
+- ### Find elements using CSS selectors and jQuery [summary](css/selectors-jquery/selectors-jquery.md)
 
-  Defining element, style, and attribute selectors
+  - #### [Defining element, style, and attribute selectors](css/selectors-jquery/element-style-attribute-selectors.md)
 
   Choosing the correct selector to reference an element
 
