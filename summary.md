@@ -40,8 +40,6 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Implement storage API](html/apis/storage-api.md)
 
-  - #### [Implement AppCache API](html/apis/appcache-api.md)
-
   - #### [Implement Geolocation API](html/apis/geolocation-api.md)
 
 - ### Establish the scope of objects and variables [summary](javascript/scope-objects-variables/scope-objects-variables-summary.md)
@@ -90,19 +88,19 @@ I followed the appendix of [Skills measured](support-material/skills-measured.md
 
   - #### [Checking for null values](javascript/exception-handling/checking-null-values.md)
 
-- ### Implement a callback [summary](javascript/callback/callback-summary.md)
+- ### Implement asynchronous programming [summary](javascript/asynchronous/asynchronous-summary.md)
 
-  - #### [Implement a callback - intro](javascript/callback/callback-intro.md)
+  - #### [Implement a callback - intro](javascript/asynchronous/callback-intro.md)
 
-  - #### [Implementing bidirectional communication with the WebSocket API](javascript/callback/websocket-api.md)
+  - #### [Implementing bidirectional communication with the WebSocket API](javascript/asynchronous/websocket-api.md)
 
-  - #### [Making webpages dynamic with jQuery and AJAX](javascript/callback/jquery-ajax.md)
+  - #### [Making webpages dynamic with jQuery and AJAX](javascript/asynchronous/jquery-ajax.md)
 
-  - #### [Wiring up an event with jQuery](javascript/callback/wiringup-event-jquery.md)
+  - #### [Wiring up an event with jQuery](javascript/asynchronous/wiringup-event-jquery.md)
 
-  - #### [Implementing a callback with an anonymous function](javascript/callback/callback-anonymous-function.md)
+  - #### [Implementing a callback with an anonymous function](javascript/asynchronous/callback-anonymous-function.md)
 
-  - #### [Using the _this_ pointer](javascript/callback/this-pointer.md)
+  - #### [Using the _this_ pointer](javascript/asynchronous/this-pointer.md)
 
 - ### Create a web worker process [summary](javascript/web-worker/web-worker-summary.md)
 

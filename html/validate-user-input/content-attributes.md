@@ -2,6 +2,22 @@
 
 Input controls provide content attributes that allow you to control their behavior in the browser declaratively rather than have to write JavaScript code.
 
+## Attributes common to all input typesSection
+
+| Attribute    | Description                                                                                                                                               |
+|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| autocomplete | A string indicating the type of autocomplete functionality, if any, to allow on the input                                                                 |
+| autofocus    | A Boolean which, if present, makes the input take focus when the form is presented                                                                        |
+| disabled     | A Boolean attribute which is present if the input should be disabled                                                                                      |
+| form         | The id of the ```<form>``` of which the input is a member; if absent, the input is a member of the nearest containing form, or is not a member of a form at all |
+| list         | The id of a ```<datalist>``` element that provides a list of suggested values for the input                                                                     |
+| name         | The input's name, to identify the input in the data submitted with the form's data                                                                        |
+| readonly     | A Boolean attribute which, if true, indicates that the input cannot be edited                                                                             |
+| required     | A Boolean which, if true, indicates that the input must have a value before the form can be submitted                                                     |
+| tabindex     | A numeric value providing guidance to the user agent as to the order in which controls receive focus when the user presses the Tab key                    |
+| type         | A string indicating which input type the ```<input>``` element represents                                                                                       |
+| value        | The input's current value                                                                                                                                 |
+
 ## Making controls read-only
 
 Part of the specification for the HTML input controls includes a readonly attribute. If you want to present information to users in elements such as text boxes but don’t want them to be able to alter this data, use the readonly attribute.
@@ -48,8 +64,8 @@ The placeholder text is slightly lighter in color. As soon as a user puts the mo
 
 To ensure that a user fills in a field, use the required attribute with the ```<input>``` element. Doing so ensures that users will be told that the field is required.
 
-
-
 ## Source
+
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes)
 
 [Exam Ref 70-480 Programming in HTML5 with JavaScript and CSS3 (MCSD)](https://www.microsoft.com/en-us/p/exam-ref-70-480-programming-in-html5-with-javascript-and-css3-mcsd/fgqpf3h0qll7?activetab=pivot%3aoverviewtab)

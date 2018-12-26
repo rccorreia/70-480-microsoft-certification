@@ -3,8 +3,6 @@
 * The new Web Storage API enables you to store data locally on the client computer.
 * Web Storage supports both localStorage and sessionStoroage.
 * Data in Web Storage is stored as name and value pairs.
-* The AppCache API provides a way to make webpages available when users are offline.
-* The AppCache manifest defines what’s available offline.
 * The Geolocation API provides a way to integrate location services into a webpage.
 * The Geolocation API provides two methods: getPosition and watchPosition.
 
